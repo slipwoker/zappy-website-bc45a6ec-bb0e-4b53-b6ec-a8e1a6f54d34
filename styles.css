@@ -12235,6 +12235,16 @@ body.accessibility-widget-visible ._access-menu {
     margin-top: 44px;
   }
 }
+
+.zy-services-section {
+  background: #1a1510 !important;
+}
+
+.zy-services-section::before {
+  content: '';
+  background: radial-gradient(ellipse 60% 40% at 20% 80%, rgba(224, 185, 122, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 35% at 80% 10%, rgba(196, 138, 69, 0.10) 0%, transparent 55%) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
