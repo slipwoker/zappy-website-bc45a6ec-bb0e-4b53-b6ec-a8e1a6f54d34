@@ -11927,6 +11927,34 @@ body.accessibility-widget-visible ._access-menu {
 .nav-cta-btn { color: #333333 !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+.index-hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: url('assets/zy-skate-club-logo.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 65%;
+  opacity: 0.08;
+  filter: brightness(0) invert(1);
+}
+
+.index-hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: url('assets/zy-skate-club-logo.webp');
+  background-repeat: no-repeat;
+  background-position: center 40%;
+  background-size: 80%;
+  opacity: 0.13;
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(10deg);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
