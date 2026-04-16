@@ -2874,13 +2874,12 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 }
 
-/* index-features */
 .index-features-section {
   position: relative;
   overflow: visible;
-  background-color: #F4EBDF;
-  background-image: linear-gradient(180deg, #FBF7F0 0%, #F4EBDF 100%);
-  color: var(--text-dark);
+  background-color: var(--bg-dark);
+  background-image: none;
+  color: var(--text-light);
   padding: 96px 24px 130px;
   direction: rtl;
 }
@@ -11954,6 +11953,34 @@ body.accessibility-widget-visible ._access-menu {
   background-size: 80%;
   opacity: 0.13;
   filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(10deg);
+}
+
+.index-features-section .ifs-card {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  color: var(--text-light) !important;
+}
+
+.index-features-section .ifs-card-title {
+  color: var(--text-light) !important;
+}
+
+.index-features-section .ifs-card-text {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.index-features-section .ifs-heading {
+  color: var(--text-light) !important;
+}
+
+.index-features-section .ifs-subtext {
+  color: rgba(255, 255, 255, 0.70) !important;
+}
+
+.index-features-section .ifs-card-icon {
+  background: rgba(255, 215, 0, 0.12) !important;
+  border-color: rgba(255, 215, 0, 0.25) !important;
+  color: var(--primary) !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
