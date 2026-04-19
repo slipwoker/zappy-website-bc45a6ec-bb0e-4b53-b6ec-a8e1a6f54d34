@@ -11982,6 +11982,11 @@ body.accessibility-widget-visible ._access-menu {
   border-color: rgba(255, 215, 0, 0.25) !important;
   color: var(--primary) !important;
 }
+
+.index-hero-section::before {
+  content: '';
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
