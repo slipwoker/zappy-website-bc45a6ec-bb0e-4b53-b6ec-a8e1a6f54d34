@@ -247,6 +247,43 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+    <style id="zappy-announcement-bar-styles">
+    /* Announcement Bar Styles */
+    .zappy-announcement-bar {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      text-align: center !important;
+      padding: 10px 20px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      box-sizing: border-box !important;
+      z-index: 1001 !important;
+      min-height: 40px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message {
+      position: absolute !important;
+      opacity: 0 !important;
+      transition: opacity 0.5s ease-in-out !important;
+      width: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      padding: 0 20px !important;
+      box-sizing: border-box !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message.active {
+      opacity: 1 !important;
+    }
+    </style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -310,6 +347,9 @@
 </head>
 <body>
 
+<div class="zappy-announcement-bar">
+      <span class="zappy-announcement-message active">קוד קופון 20% הנחה על כל האתר: ZY20</span>
+    </div>
   <script>
     window.ZAPPY_WEBSITE_ID = "bc45a6ec-bb0e-4b53-b6ec-a8e1a6f54d34";
     // Preview pages are served by the Zappy server itself (localhost in dev), so use that base.
@@ -350,7 +390,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/zy-skate-club-logo.webp" alt="ZY SKATE CLUB" class="logo">
+        <img src="/assets/zy-skate-club-logo-1776626532585-a6oy1o.webp?v=1776626532928-jn8nfe" alt="ZY SKATE CLUB" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
@@ -600,6 +640,7 @@
   })();
   </script>
     <div data-integration="accessibility:toolbar"></div>
+
 
     <script src="/script.js"></script>
 

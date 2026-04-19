@@ -245,6 +245,43 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+    <style id="zappy-announcement-bar-styles">
+    /* Announcement Bar Styles */
+    .zappy-announcement-bar {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      text-align: center !important;
+      padding: 10px 20px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      box-sizing: border-box !important;
+      z-index: 1001 !important;
+      min-height: 40px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message {
+      position: absolute !important;
+      opacity: 0 !important;
+      transition: opacity 0.5s ease-in-out !important;
+      width: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      padding: 0 20px !important;
+      box-sizing: border-box !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message.active {
+      opacity: 1 !important;
+    }
+    </style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -333,6 +370,9 @@
 </head>
 <body>
 
+<div class="zappy-announcement-bar">
+      <span class="zappy-announcement-message active">קוד קופון 20% הנחה על כל האתר: ZY20</span>
+    </div>
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -367,7 +407,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/zy-skate-club-logo.webp" alt="ZY SKATE CLUB" class="logo">
+        <img src="/assets/zy-skate-club-logo-1776626532585-a6oy1o.webp?v=1776626532928-jn8nfe" alt="ZY SKATE CLUB" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
@@ -854,7 +894,7 @@
       <div class="index-hero-card-inner">
         <p style="max-width: none;" data-zappy-text-width="full"><span class="index-hero-label">חנות סקייטבורד</span>
         </p><h1 class="index-hero-h1" style="text-align: center;">ZY SKATE CLUB&nbsp;<br><ul><li><span style="font-size: 3rem; letter-spacing: -0.02em;">המקום שלך לסקייטבורד</span></li></ul></h1>
-        <h3 class="index-hero-subtitle" style="">קרשים, תרבות וקהילה. הכל מתחיל כאן&nbsp; בחנות שנבנתה על אהבה אמיתית לסקייט.</h3>
+        <h3 class="index-hero-subtitle" >קרשים, תרבות וקהילה. הכל מתחיל כאן&nbsp; בחנות שנבנתה על אהבה אמיתית לסקייט.</h3>
         <div class="index-hero-ctas">
           <a href="/contact" class="index-hero-btn-primary btn btn-outline btn-secondary" data-element-type="button" data-element-id="btn-1776376660896-mbd0p3nrd" data-native-element="true" style="color: rgb(255, 215, 0) !important; border-color: rgb(255, 215, 0) !important; background-color: transparent !important; background-image: none !important;">בואו להכיר אותנו</a>
           <a href="/contact" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1776376660896-jrxe76ihv" data-native-element="true">קבלו ייעוץ סטאפ</a>
@@ -887,7 +927,7 @@
     <section class="featured-categories-section" id="featured-categories" data-zappy-dynamic="true">
       <div class="container">
         <h2 class="section-title">קנו לפי קטגוריה</h2>
-        <div class="category-blocks" id="zappy-featured-categories" style=""><a href="/category/completers" class="category-block" data-category-id="c2548409-2da8-4f14-8df9-9e9d6ae0fc72" data-category-slug="completers"><br><br><br><span class="category-block-name">קמפלטים</span></a><a href="/category/lumber" class="category-block" data-category-id="f90a39dc-a5ef-4b9b-84c7-99f3913e1f9b" data-category-slug="lumber"><br><br><br><span class="category-block-name">קרשים</span></a><a href="/category/hinges" class="category-block" data-category-id="deff86a3-c401-4bcb-8189-acccb10bced2" data-category-slug="hinges"><br><br><br><span class="category-block-name">צירים</span></a><a href="/category/wheels" class="category-block" data-category-id="fc0b8452-8fd4-4fcb-999b-d9fa3bb236f8" data-category-slug="wheels"><br><br><br><span class="category-block-name">גלגלים</span></a><a href="/category/storage-facilities" class="category-block" data-category-id="cdfe400d-303f-4b7e-9acd-37bf6ef383ea" data-category-slug="storage-facilities"><br><br><br><span class="category-block-name">לאגרים</span></a><a href="/category/accessories" class="category-block" data-category-id="d6b44f19-c98e-4e9f-a849-ff970a1b5c40" data-category-slug="accessories"><br><br><br><span class="category-block-name">אביזרים</span></a><a href="/category/screws" class="category-block" data-category-id="be999d1e-549d-4008-b55b-b44330e6f2f8" data-category-slug="screws"><br><br><br><span class="category-block-name">ברגים</span></a></div>
+        <div class="category-blocks" id="zappy-featured-categories" ><a href="/category/completers" class="category-block" data-category-id="c2548409-2da8-4f14-8df9-9e9d6ae0fc72" data-category-slug="completers"><br><br><br><span class="category-block-name">קמפלטים</span></a><a href="/category/lumber" class="category-block" data-category-id="f90a39dc-a5ef-4b9b-84c7-99f3913e1f9b" data-category-slug="lumber"><br><br><br><span class="category-block-name">קרשים</span></a><a href="/category/hinges" class="category-block" data-category-id="deff86a3-c401-4bcb-8189-acccb10bced2" data-category-slug="hinges"><br><br><br><span class="category-block-name">צירים</span></a><a href="/category/wheels" class="category-block" data-category-id="fc0b8452-8fd4-4fcb-999b-d9fa3bb236f8" data-category-slug="wheels"><br><br><br><span class="category-block-name">גלגלים</span></a><a href="/category/storage-facilities" class="category-block" data-category-id="cdfe400d-303f-4b7e-9acd-37bf6ef383ea" data-category-slug="storage-facilities"><br><br><br><span class="category-block-name">לאגרים</span></a><a href="/category/accessories" class="category-block" data-category-id="d6b44f19-c98e-4e9f-a849-ff970a1b5c40" data-category-slug="accessories"><br><br><br><span class="category-block-name">אביזרים</span></a><a href="/category/screws" class="category-block" data-category-id="be999d1e-549d-4008-b55b-b44330e6f2f8" data-category-slug="screws"><br><br><br><span class="category-block-name">ברגים</span></a></div>
       </div>
     </section>
   
