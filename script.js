@@ -8862,7 +8862,14 @@ window.onload = function() {
     var _vProduct = null;
     var _vT = {};
     var _initOvr = false;
-    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=p;var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr}}}
+    // Late-product safety: the page may call initVariantSelection AFTER our
+    // setTimeout(fixVariantSelection, 2000) has already fired (e.g. when the
+    // product API is slow on cold starts or large catalogs). In that case both
+    // scheduled calls bailed at the !product guard and never ran _repBtns or
+    // _autoSelectSingles. Re-trigger fixVariantSelection from inside the wrapper
+    // so the runtime fix runs once data finally arrives. Deferred via setTimeout
+    // so the page's own renderProductDetail finishes mutating the DOM first.
+    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=p;var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
     _oivs();
 
     function _gv() { return _vProduct ? (_vProduct.variants||[]).filter(function(v){return v.is_active!==false}) : []; }
@@ -9008,7 +9015,33 @@ window.onload = function() {
         if(origATC)origATC.apply(this,arguments);
       };
       selectedAttributes={};document.querySelectorAll('.variant-option').forEach(function(b){b.classList.remove('selected','disabled','out-of-stock');b.disabled=false});
-      _uv();_upd();
+      // Auto-select any variant group that only has one possible value, so a
+      // shopper choosing the remaining options gets a fully-matched variant
+      // (image/SKU/price update) instead of being silently blocked because a
+      // single-option dimension was left implicitly unselected.
+      function _autoSelectSingles(){
+        document.querySelectorAll('.variant-group').forEach(function(grp){
+          var ak=grp.getAttribute('data-group');
+          if(!ak||ak==='variant')return;
+          if(grp.querySelector('.variant-option.selected'))return;
+          var btns=Array.prototype.slice.call(grp.querySelectorAll('.variant-option')).filter(function(b){
+            return b.getAttribute('data-attr')&&b.getAttribute('data-value')&&!b.classList.contains('disabled')&&!b.classList.contains('out-of-stock');
+          });
+          if(btns.length!==1)return;
+          var btn=btns[0],av=btn.getAttribute('data-value');
+          btn.classList.add('selected');
+          selectedAttributes[ak]=av;
+          var sp=grp.querySelector('.variant-selected-value');
+          if(sp)sp.textContent=btn.getAttribute('data-display-value')||av;
+        });
+      }
+      _autoSelectSingles();
+      _uv();
+      // Re-run after availability has been recomputed: a multi-option group may
+      // have collapsed to a single non-disabled choice once cross-group stock
+      // constraints were applied.
+      _autoSelectSingles();
+      _upd();
     }
 
     if(document.readyState==='complete'){setTimeout(fixVariantSelection,100)}else{window.addEventListener('load',function(){setTimeout(fixVariantSelection,100)})}
