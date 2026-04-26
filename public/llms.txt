@@ -1,79 +1,93 @@
-# Business — Generative Engine Optimization Map
+# ZY SKATE CLUB — Generative Engine Optimization Map
+
+> A skateboard shop catering to skateboarding enthusiasts. The business revolves around skateboarding culture, offering products and services related to the sport. The brand likely carries an urban, street-culture vibe that resonates with the skateboarding community.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://zy-skate-club.zappy5.app
 A skateboard shop catering to skateboarding enthusiasts. The business revolves around skateboarding culture, offering products and services related to the sport
 
 ### ניסיון
-https://example.com/experience
+https://zy-skate-club.zappy5.app/experience
 ניסיון | ZY SKATE CLUB. חנות סקייטבורד
 
 ### אודות
-https://example.com/about
+https://zy-skate-club.zappy5.app/about
 אודות | ZY SKATE CLUB. חנות סקייטבורד
 
 ### צור קשר
-https://example.com/contact
+https://zy-skate-club.zappy5.app/contact
 צור קשר | ZY SKATE CLUB. חנות סקייטבורד
 
 ### Products
-https://example.com/products
+https://zy-skate-club.zappy5.app/products
 המוצרים שלנו - ZY SKATE CLUB
 
 ### Cart
-https://example.com/cart
+https://zy-skate-club.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://zy-skate-club.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://zy-skate-club.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://zy-skate-club.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://zy-skate-club.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://zy-skate-club.zappy5.app/product/:slug
 פרטי המוצר - ZY SKATE CLUB
 
 ### Category
-https://example.com/category/:slug
+https://zy-skate-club.zappy5.app/category/:slug
 מוצרים - ZY SKATE CLUB
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://zy-skate-club.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://zy-skate-club.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://zy-skate-club.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About ZY SKATE CLUB
+A skateboard shop catering to skateboarding enthusiasts. The business revolves around skateboarding culture, offering products and services related to the sport. The brand likely carries an urban, street-culture vibe that resonates with the skateboarding community.
+
+## Target Audience
+- בני נוער עירוניים
+- סטודנטים חובבי סקייטבורד
+- צעירים מקצועיים וחובבי כושר
+- הורים לילדים חובבי סקייטבורד
+- חובבי ספורט אקסטרים
+
+## Industry
+ספורט וציוד פנאי
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://zy-skate-club.zappy5.app/sitemap.xml
+- **Robots.txt**: https://zy-skate-club.zappy5.app/robots.txt
