@@ -373,6 +373,7 @@
 
 <div class="zappy-announcement-bar">
       <span class="zappy-announcement-message active">הנחה 20% על כל החנות </span>
+      <span class="zappy-announcement-message">הנחה 20% על כל החנות </span>
     </div>
 
 
@@ -1255,6 +1256,17 @@
   <div data-integration="accessibility:toolbar"></div>
 
 
+<script>
+(function() {
+  var messages = document.querySelectorAll('.zappy-announcement-message');
+  if (messages.length <= 1) return;
+  var current = 0;
+  setInterval(function() {
+    messages[current].classList.remove('active');
+    current = (current + 1) % messages.length;
+    messages[current].classList.add('active');
+  }, 4000);
+})();</script>
 
     <script src="/script.js"></script>
 
