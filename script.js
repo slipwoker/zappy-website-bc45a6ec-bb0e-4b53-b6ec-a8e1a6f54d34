@@ -820,6 +820,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -1113,6 +1115,7 @@ function stripHtmlToText(html) {
   
   
   function saveCart() {
+    cart = getCartPayload();
     localStorage.setItem('zappy_cart_' + websiteId, JSON.stringify(cart));
     updateCartCount();
     renderCartDrawer(); // Keep drawer in sync
@@ -1219,6 +1222,60 @@ function stripHtmlToText(html) {
     if (unit === 'piece') return price * item.quantity;
     return price * (item.quantity / step);
   }
+
+  function buildCartItemVariantMetadata(item) {
+    var selectedVariant = item && item.selectedVariant;
+    if (!selectedVariant || !selectedVariant.attributes || typeof selectedVariant.attributes !== 'object') {
+      return { labels: {}, colorSwatches: {} };
+    }
+
+    var attrLabels = getVariantAttributeLabels(item, t);
+    var labels = {};
+    var colorSwatches = {};
+
+    Object.entries(selectedVariant.attributes).forEach(function(entry) {
+      var key = entry[0], value = entry[1];
+      if (!key || value == null || String(value).trim() === '') return;
+
+      labels[key] = attrLabels[key] || attrLabels[String(key).toLowerCase()] || key;
+
+      var isColor = String(key).toLowerCase() === 'color' || String(key).toLowerCase().includes('color');
+      if (isColor && typeof window.getConfiguredColorSwatchHex === 'function') {
+        if (!colorSwatches[key]) colorSwatches[key] = {};
+        colorSwatches[key][String(value)] = window.getConfiguredColorSwatchHex(item, key, value);
+      }
+    });
+
+    return { labels: labels, colorSwatches: colorSwatches };
+  }
+
+  function stripCartItemVariantConfig(item) {
+    if (!item || typeof item !== 'object') return item;
+
+    var compact = { ...item };
+    var metadata = buildCartItemVariantMetadata(compact);
+    if (Object.keys(metadata.labels).length > 0) {
+      compact.variantAttributeLabels = {
+        ...(compact.variantAttributeLabels || {}),
+        ...metadata.labels
+      };
+    }
+    if (Object.keys(metadata.colorSwatches).length > 0) {
+      compact.variantColorSwatches = {
+        ...(compact.variantColorSwatches || {}),
+        ...metadata.colorSwatches
+      };
+    }
+
+    delete compact.variant_config;
+    delete compact.variantConfig;
+    delete compact.variants;
+    return compact;
+  }
+
+  function getCartPayload() {
+    return cart.map(stripCartItemVariantConfig);
+  }
   
   function addToCart(product) {
     // Create a unique cart item ID that includes variant info
@@ -1241,7 +1298,7 @@ function stripHtmlToText(html) {
       var decimals = (step.toString().split('.')[1] || '').length;
       existing.quantity = parseFloat(existing.quantity.toFixed(decimals));
     } else {
-      cart.push({ ...product, quantity: qty, quantityUnit: product.quantityUnit || product.quantity_unit || 'piece', quantityStep: step, customUnitLabel: product.customUnitLabel || product.custom_unit_label || null });
+      cart.push(stripCartItemVariantConfig({ ...product, quantity: qty, quantityUnit: product.quantityUnit || product.quantity_unit || 'piece', quantityStep: step, customUnitLabel: product.customUnitLabel || product.custom_unit_label || null }));
     }
     saveCart();
     openCartDrawer(); // Open cart drawer instead of alert
@@ -1876,6 +1933,21 @@ function stripHtmlToText(html) {
     if (!colorValue) return '';
     if (/^#[0-9A-Fa-f]{3,8}$/.test(String(colorValue).trim())) return String(colorValue).trim();
 
+    var compactSwatches = source && source.variantColorSwatches;
+    if (compactSwatches && typeof compactSwatches === 'object') {
+      var swatchKey = Object.keys(compactSwatches).find(function(key) {
+        return String(key).toLowerCase() === String(attrKey || '').toLowerCase();
+      });
+      var swatchesForKey = swatchKey && compactSwatches[swatchKey];
+      var normalizedCompactValue = String(colorValue).trim().replace(/s+/g, ' ').toLowerCase();
+      if (swatchesForKey && typeof swatchesForKey === 'object') {
+        var valueKey = Object.keys(swatchesForKey).find(function(key) {
+          return String(key).trim().replace(/s+/g, ' ').toLowerCase() === normalizedCompactValue;
+        });
+        if (valueKey && swatchesForKey[valueKey]) return swatchesForKey[valueKey];
+      }
+    }
+
     var variantConfig = source && (source.variant_config || source.variantConfig);
     if (typeof variantConfig === 'string') {
       try { variantConfig = JSON.parse(variantConfig); } catch (e) { variantConfig = null; }
@@ -1919,6 +1991,15 @@ function stripHtmlToText(html) {
       capacity: (t && t.capacity) || 'Capacity',
       length: (t && t.length) || 'Length'
     };
+    var compactLabels = source && source.variantAttributeLabels;
+    if (compactLabels && typeof compactLabels === 'object') {
+      Object.entries(compactLabels).forEach(function(entry) {
+        var key = entry[0], label = entry[1];
+        if (!key || !label) return;
+        labels[String(key)] = String(label);
+        labels[String(key).toLowerCase()] = String(label);
+      });
+    }
     var variantConfig = getVariantConfig(source);
     var customOptions = Array.isArray(variantConfig && variantConfig.customOptions)
       ? variantConfig.customOptions
@@ -1930,6 +2011,7 @@ function stripHtmlToText(html) {
     });
     return labels;
   }
+  window.getVariantAttributeLabels = getVariantAttributeLabels;
 
   // Render cart drawer (slide-out panel)
   function renderCartDrawer() {
@@ -2204,6 +2286,7 @@ function stripHtmlToText(html) {
       var paymentIcons = {
         'credit-card': '<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="10" width="44" height="30" rx="4" fill="#1A1F71"/><rect x="3" y="10" width="44" height="10" fill="#E4A935"/><rect x="7" y="25" width="18" height="3" rx="1.5" fill="rgba(255,255,255,0.5)"/><rect x="7" y="31" width="12" height="3" rx="1.5" fill="rgba(255,255,255,0.5)"/><circle cx="35" cy="30" r="7" fill="#EB001B" opacity="0.9"/><circle cx="41" cy="30" r="7" fill="#F79E1B" opacity="0.9"/></svg>',
         'paypal': '<svg width="36" height="36" viewBox="0 0 30.55 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.5 9.15s-.85.45-.89.68c-1.44 7.57-5.73 9.65-12.17 9.65h-3.29c-.81 0-1.92 1.13-2.05 1.9l-1.7 9.9.47.78-.45 3.06c-.09.45.22.9.72.95h5.81c.68 0 1.26-.5 1.4-1.17l.04-.32s1.08-6.93 1.08-6.94c.13-.81.58-1.53 1.49-1.53h.86c5.63 0 10.05-2.3 11.35-8.92.54-2.75.27-5.09-1.17-6.71a6.5 6.5 0 0 0-1.45-1.29Z" fill="#009BD9"/><path d="M26.08 7.68a15.8 15.8 0 0 0-4.44-.52h-8.79c-.68 0-1.86.89-1.99 1.57L8.87 20.95l.7.36c.13-.77.81-1.35 1.58-1.35h3.29c6.44 0 11.46-2.6 12.95-10.17.04-.23.07-.39.12-.64 0 0-.47-1.06-.86-1.26-.18-.08-.37-.15-.56-.2Z" fill="#192A67"/><path d="M11.5 9.19c.09-.68.68-1.17 1.4-1.17h8.74c1.04 0 2.03.09 2.88.23.59.09 1.17.23 1.76.41.45.14.86.32 1.22.5.45-2.79 0-4.69-1.53-6.44C24.34.81 21.33 0 17.45 0H6.28c-.77 0-1.44.59-1.58 1.35L.01 30.91c-.09.54.28 1.04.82 1.08h6.84l1.76-11.01L11.5 9.2Z" fill="#0A3B82"/></svg>',
+        'phone': '<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="44" rx="10" fill="#FF0083"/><path d="M15.7 12.5c.5-.5 1.3-.5 1.8 0l2.7 2.7c.5.5.5 1.3.1 1.9l-1.5 1.9c1.2 2.3 3.1 4.2 5.4 5.4l1.9-1.5c.6-.4 1.4-.4 1.9.1l2.7 2.7c.5.5.5 1.3 0 1.8l-1.4 1.4c-1.1 1.1-2.8 1.5-4.3 1-6.7-2.2-11.9-7.4-14.1-14.1-.5-1.5-.1-3.2 1-4.3l1.8-1Z" fill="white"/></svg>',
         'apple-pay': '<svg width="50" height="21" viewBox="0 0 50 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.37 2.78A3.14 3.14 0 0 0 10.1.65 3.2 3.2 0 0 0 7.97 1.75a3 3 0 0 0-.76 2.06c.81.06 1.56-.37 2.16-1.03Zm.72 1.08c-1.2-.07-2.22.68-2.78.68-.57 0-1.43-.64-2.37-.62A3.5 3.5 0 0 0 2 5.55c-1.27 2.2-.33 5.46.9 7.25.61.88 1.33 1.87 2.28 1.83.9-.04 1.26-.58 2.35-.58s1.42.58 2.37.56c.99-.02 1.6-.88 2.2-1.77a7.8 7.8 0 0 0 1-2.05 3.2 3.2 0 0 1-1.92-2.93 3.24 3.24 0 0 1 1.54-2.72 3.33 3.33 0 0 0-2.63-1.28Zm8.15-1.5v12.2h1.89V10h2.61c2.38 0 4.05-1.64 4.05-4.07s-1.64-4.03-3.98-4.03h-4.57v2.46Zm1.89 1.56h2.17c1.64 0 2.57.87 2.57 2.4s-.93 2.41-2.58 2.41h-2.16V3.92Zm10.92 10.9c1.19 0 2.29-.6 2.79-1.56h.04v1.46h1.75V9.01c0-1.75-1.4-2.88-3.56-2.88-2 0-3.46 1.15-3.52 2.72h1.7c.14-.75.83-1.24 1.75-1.24 1.13 0 1.76.52 1.76 1.49v.65l-2.3.14c-2.14.13-3.3 1.01-3.3 2.53 0 1.54 1.19 2.57 2.89 2.57Zm.5-1.42c-.98 0-1.61-.47-1.61-1.2 0-.75.6-1.18 1.75-1.25l2.05-.13v.67c0 1.12-.95 1.91-2.19 1.91Zm5.37 4.56c1.84 0 2.71-.7 3.47-2.84l3.32-9.33h-1.93l-2.23 7.17h-.04l-2.23-7.17h-1.98l3.2 8.85-.17.54c-.29.92-.76 1.27-1.6 1.27-.15 0-.44-.02-.56-.03v1.48c.11.04.48.06.75.06Z" fill="#000"/></svg>',
         'google-pay': '<svg width="50" height="20" viewBox="0 0 50 19.62" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.34 9.54V15.32H21.5V1.04h4.87c1.23 0 2.28.41 3.14 1.23.88.82 1.32 1.83 1.32 3.01 0 1.21-.44 2.22-1.32 3.03-.85.81-1.9 1.21-3.14 1.21h-3.03v.02Zm0-6.74v4.98h3.07c.73 0 1.34-.25 1.82-.74.49-.49.74-1.08.74-1.74 0-.66-.25-1.24-.74-1.73-.48-.5-1.08-.75-1.82-.75h-3.07v-.02Z" fill="#383E41"/><path d="M35.63 5.23c1.36 0 2.43.36 3.21 1.09.78.73 1.18 1.72 1.18 2.98v6.02h-1.75v-1.36h-.08c-.76 1.12-1.77 1.67-3.03 1.67-1.08 0-1.98-.32-2.7-.96-.73-.64-1.1-1.43-1.1-2.39 0-1.01.38-1.82 1.15-2.41.76-.6 1.79-.9 3.06-.9 1.09 0 1.99.2 2.69.6v-.42c0-.64-.25-1.18-.76-1.63-.5-.45-1.1-.67-1.77-.67-1.02 0-1.84.43-2.43 1.3l-1.62-1.01c.89-1.29 2.21-1.93 3.95-1.93Zm-2.37 7.09c0 .48.2.88.61 1.2.4.31.88.48 1.43.48.77 0 1.46-.29 2.06-.86.6-.57.91-1.24.91-2.02-.57-.45-1.36-.68-2.39-.68-.75 0-1.37.18-1.87.54-.49.37-.75.82-.75 1.34Z" fill="#383E41"/><path d="M50 5.54l-6.12 14.07h-1.99l2.28-4.92-4.03-9.15h2l2.91 7.02h.04l2.83-7.02H50Z" fill="#383E41"/><path d="M15.88 6.65H8.19v3.16h4.43c-.18 1.05-.76 1.95-1.64 2.54l2.64.16c1.54-1.43 2.42-3.53 2.42-6.02 0-.6-.05-1.17-.16-1.72Z" fill="#0085F7"/><path d="M10.98 12.35c-.74.5-1.68.78-2.79.78-2.14 0-3.95-1.44-4.6-3.38l2.27-.36.45 2.47c1.35 2.68 4.12 4.51 7.32 4.51 2.21 0 4.07-.73 5.42-1.98l-2.65-2.04h-.04Z" fill="#00A94B"/><path d="M3.34 8.19c0-.55.09-1.07.26-1.57L.87 4.51A8.19 8.19 0 0 0 0 8.19c0 1.32.31 2.57.87 3.68l2.72-2.11c-.17-.5-.25-1.02-.25-1.57Z" fill="#FFBB00"/><path d="M8.19 0C4.99 0 2.22 1.84.87 4.51l2.72 2.11C4.24 4.68 6.05 3.24 8.19 3.24c1.21 0 2.29.42 3.14 1.23l2.34-2.34C12.25.81 10.4 0 8.19 0Z" fill="#FF4031"/></svg>'
       };
@@ -2536,6 +2619,7 @@ function stripHtmlToText(html) {
           sessionId = 'sess_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now();
           localStorage.setItem('zappy_session_id', sessionId);
         }
+        const checkoutCart = getCartPayload();
         
         // Initialize checkout
         const res = await fetch(buildApiUrl('/api/ecommerce/checkout/init'), {
@@ -2558,7 +2642,7 @@ function stripHtmlToText(html) {
             shippingMethodId: selectedShipping.id,
             shippingCost: selectedShipping.price || 0,
             shippingMethodName: selectedShipping.name || 'משלוח',
-            cart: cart,
+            cart: checkoutCart,
             couponCode: appliedCoupon ? appliedCoupon.code : null,
             couponDiscount: couponDiscount + seasonalDiscount + firstOrderDiscount,
             paymentMethodId: selectedPaymentMethod ? selectedPaymentMethod.id : null
@@ -2579,7 +2663,7 @@ function stripHtmlToText(html) {
           const shippingCostNum = parseFloat(selectedShipping.price) || 0;
           const discountNum = parseFloat(couponDiscount + seasonalDiscount + firstOrderDiscount) || 0;
           const pendingOrderData = {
-            cartItems: cart,
+            cartItems: checkoutCart,
             subtotal: subtotalNum,
             shippingCost: shippingCostNum,
             discount: discountNum,
@@ -2587,6 +2671,7 @@ function stripHtmlToText(html) {
             shippingMethodName: selectedShipping.name || '',
             shippingIsPickup: selectedShipping.is_pickup || false,
             paymentMethodName: selectedPaymentMethod ? (isRTL ? selectedPaymentMethod.name : selectedPaymentMethod.nameEn) : '',
+            paymentStatus: data.data.paymentStatus || (data.data.provider === 'phone_payment' ? 'pending' : 'processing'),
             customerName: customerName,
             customerEmail: customerEmail,
             orderDate: new Date().toISOString()
@@ -4191,7 +4276,10 @@ function stripHtmlToText(html) {
             if (orderData.discount > 0) {
               totalsHtml += '<div><span>' + (t.discount || 'Discount') + ':</span><span>-' + t.currency + parseFloat(orderData.discount).toFixed(2) + '</span></div>';
             }
-            totalsHtml += '<div class="order-total-final"><span>' + (t.paidAmount || 'Amount Paid') + ':</span><span>' + t.currency + parseFloat(orderData.total || 0).toFixed(2) + '</span></div>';
+            var totalLabel = orderData.paymentStatus === 'pending'
+              ? (t.totalToPay || 'Total to pay')
+              : (t.paidAmount || 'Amount Paid');
+            totalsHtml += '<div class="order-total-final"><span>' + totalLabel + ':</span><span>' + t.currency + parseFloat(orderData.total || 0).toFixed(2) + '</span></div>';
             orderTotalsSummary.innerHTML = totalsHtml;
           }
           
@@ -6744,7 +6832,9 @@ function renderProductDetail(container, product, t) {
     });
     
     // Attribute label translations, including saved labels for custom options.
-    const attrLabels = getVariantAttributeLabels(product, t);
+    const attrLabels = window.getVariantAttributeLabels
+      ? window.getVariantAttributeLabels(product, t)
+      : {};
     const getAttrLabel = (attrKey) =>
       attrLabels[attrKey] ||
       attrLabels[String(attrKey).toLowerCase()] ||
@@ -7766,8 +7856,7 @@ function addProductToCart() {
     quantity: quantity,
     quantityUnit: quantityUnit,
     quantityStep: quantityStep,
-    customUnitLabel: customUnitLabel,
-    variant_config: product.variant_config || product.variantConfig || null
+    customUnitLabel: customUnitLabel
   };
   
   if (selectedVariant) {
