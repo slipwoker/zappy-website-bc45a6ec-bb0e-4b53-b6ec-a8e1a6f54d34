@@ -8306,7 +8306,7 @@ a, button {
   min-height: 0;
 }
 .product-card.detailed .price { font-size: 20px; padding-top: 8px; }
-.product-card.detailed .add-to-cart { display: block; padding: 12px; margin: 0 14px 14px; align-self: stretch; box-sizing: border-box; }
+.product-card.detailed .add-to-cart { display: block; width: auto; padding: 12px; margin: 0 14px 14px; align-self: stretch; box-sizing: border-box; }
 
 /* Product tags (sale, new, featured badges) */
 .product-tag { display: inline-block; padding: 4px 10px; font-size: 11px; font-weight: 600; border-radius: 4px; background: var(--accent, var(--primary)); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); pointer-events: auto; }
@@ -8453,7 +8453,7 @@ a, button {
   .products-main .product-grid:not(.view-list) .product-card p { font-size: 11px !important; overflow: hidden !important; margin: 0 0 4px 0 !important; -webkit-line-clamp: 1 !important; display: -webkit-box !important; -webkit-box-orient: vertical !important; }
   .products-main .product-grid:not(.view-list) .product-card.detailed p { -webkit-line-clamp: 5 !important; }
   .products-main .product-grid:not(.view-list) .product-card .price { font-size: 14px !important; padding-top: 2px !important; }
-  .products-main .product-grid:not(.view-list) .product-card .add-to-cart { padding: 6px 10px !important; font-size: 11px !important; margin: 0 10px 10px !important; }
+  .products-main .product-grid:not(.view-list) .product-card .add-to-cart { width: auto !important; padding: 6px 10px !important; font-size: 11px !important; margin: 0 10px 10px !important; }
   .product-grid.view-list { display: flex !important; flex-direction: column !important; gap: 10px !important; }
   .product-grid.view-list .product-card { flex-direction: row; flex-wrap: nowrap; align-items: stretch; overflow: hidden; max-height: none; padding: 0 !important; gap: 0; }
   .product-grid.view-list .product-card .product-card-inner { flex: 1 1 0%; flex-direction: row; gap: 0; min-width: 0; }
@@ -10178,7 +10178,7 @@ a, button {
 
 /* Search results dropdown - uses surface bg with regular text (not nav text) */
 .nav-search-results { 
-  background: var(--surface, var(--bg-light, #fff)) !important; 
+  background: var(--surface, #ffffff) !important; 
   border-color: rgba(128,128,128,0.2) !important; 
 }
 .nav-search-result-item { 
@@ -10600,7 +10600,7 @@ html[lang="ar"] .mobile-search-panel .search-wrapper,
     overflow: visible !important;
     border-radius: 9999px !important;
     border: 1px solid rgba(128,128,128,0.2) !important;
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
   }
 
   /* Icon color: always use text-dark on mobile since circles are always bg-light.
@@ -10735,7 +10735,7 @@ html[lang="ar"] .mobile-search-panel .search-wrapper,
     justify-content: center !important;
     border-radius: 9999px !important;
     border: 1px solid rgba(128,128,128,0.2) !important;
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
     color: var(--text-dark, #1a1a1a) !important;
     padding: 0 !important;
     position: relative !important; /* anchor cart badge */
@@ -10995,7 +10995,7 @@ body.zappy-focused-page .zappy-announcement-bar {
   min-width: 200px !important;
   max-height: calc(100vh - 200px) !important;
   overflow-y: auto !important;
-  background: var(--bg-light, #fff) !important;
+  background: #ffffff !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 20px rgba(0,0,0,0.12) !important;
   padding: 6px !important;
@@ -11052,7 +11052,7 @@ body.zappy-focused-page .zappy-announcement-bar {
     min-width: 200px;
     max-height: calc(100vh - 150px) !important;
     overflow-y: auto !important;
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     padding: 8px;
@@ -11260,7 +11260,7 @@ main,
   .navbar .sub-menu,
   .navbar ul.sub-menu,
   nav.navbar .sub-menu {
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
     border-radius: 8px !important;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
     margin: 0 !important;
@@ -11298,7 +11298,7 @@ main,
 
   /* Catalog dropdown submenu */
   .zappy-products-dropdown .sub-menu {
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
     margin: 0 !important;
     padding-top: 12px !important;
   }
@@ -11356,7 +11356,7 @@ main,
     overflow: visible !important;
     border-radius: 9999px !important;
     border: 1px solid rgba(128,128,128,0.2) !important;
-    background: var(--bg-light, #ffffff) !important;
+    background: #ffffff !important;
   }
 
   /* Icon color: always use text-dark on mobile since circles are always bg-light. */
@@ -11550,7 +11550,7 @@ main,
   padding: 40px 20px !important;
   color: rgba(0,0,0,0.6) !important;
   font-size: 1rem !important;
-  background: var(--bg-light) !important;
+  background: #ffffff !important;
   border-radius: 12px !important;
   margin: 0 auto !important;
   max-width: 600px !important;
