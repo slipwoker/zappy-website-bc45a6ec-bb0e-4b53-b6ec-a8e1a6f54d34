@@ -818,6 +818,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -1192,10 +1194,21 @@ function stripHtmlToText(html) {
   
   // Get effective price (sale_price if available and less than price, otherwise price)
   function getItemPrice(item) {
-    if (item.sale_price && parseFloat(item.sale_price) < parseFloat(item.price)) {
-      return parseFloat(item.sale_price);
+    var variantPrice = item && item.selectedVariant && item.selectedVariant.price;
+    if (variantPrice !== null && variantPrice !== undefined && variantPrice !== '') {
+      var parsedVariantPrice = parseFloat(variantPrice);
+      if (Number.isFinite(parsedVariantPrice)) return parsedVariantPrice;
     }
-    return parseFloat(item.price);
+    if (item.displayPrice !== null && item.displayPrice !== undefined && item.displayPrice !== '') {
+      var parsedDisplayPrice = parseFloat(item.displayPrice);
+      if (Number.isFinite(parsedDisplayPrice)) return parsedDisplayPrice;
+    }
+    var regularPrice = parseFloat(item.price);
+    var salePrice = parseFloat(item.sale_price);
+    if (Number.isFinite(salePrice) && Number.isFinite(regularPrice) && salePrice < regularPrice) {
+      return salePrice;
+    }
+    return Number.isFinite(regularPrice) ? regularPrice : 0;
   }
   
   // Get cart line total: price is per step, so total = price * (quantity / step)
@@ -1888,6 +1901,36 @@ function stripHtmlToText(html) {
     return window.getLegacyColorSwatchHex(colorValue);
   };
 
+  function getVariantConfig(source) {
+    var variantConfig = source && (source.variant_config || source.variantConfig);
+    if (typeof variantConfig === 'string') {
+      try { variantConfig = JSON.parse(variantConfig); } catch (e) { variantConfig = null; }
+    }
+    return variantConfig && typeof variantConfig === 'object' ? variantConfig : null;
+  }
+
+  function getVariantAttributeLabels(source, t) {
+    var labels = {
+      color: (t && t.color) || 'Color',
+      size: (t && t.size) || 'Size',
+      material: (t && t.material) || 'Material',
+      style: (t && t.style) || 'Style',
+      weight: (t && t.weight) || 'Weight',
+      capacity: (t && t.capacity) || 'Capacity',
+      length: (t && t.length) || 'Length'
+    };
+    var variantConfig = getVariantConfig(source);
+    var customOptions = Array.isArray(variantConfig && variantConfig.customOptions)
+      ? variantConfig.customOptions
+      : [];
+    customOptions.forEach(function(option) {
+      if (!option || !option.key || !option.label) return;
+      labels[String(option.key)] = String(option.label);
+      labels[String(option.key).toLowerCase()] = String(option.label);
+    });
+    return labels;
+  }
+
   // Render cart drawer (slide-out panel)
   function renderCartDrawer() {
     const drawerItems = document.getElementById('cart-drawer-items');
@@ -1907,7 +1950,7 @@ function stripHtmlToText(html) {
       // Build human-readable variant info from attributes (e.g., "Size: 45 • Color: Green")
       var variantInfo = '';
       if (item.selectedVariant && item.selectedVariant.attributes && typeof item.selectedVariant.attributes === 'object') {
-        var attrLabels = { color: t.color || 'Color', size: t.size || 'Size', material: t.material || 'Material', style: t.style || 'Style', weight: t.weight || 'Weight', capacity: t.capacity || 'Capacity', length: t.length || 'Length' };
+        var attrLabels = getVariantAttributeLabels(item, t);
         var parts = [];
         Object.entries(item.selectedVariant.attributes).forEach(function(entry) {
           var key = entry[0], value = entry[1];
@@ -1917,7 +1960,7 @@ function stripHtmlToText(html) {
               ? item.selectedVariant.attributes_display[key]
               : value;
           if (value) {
-            var label = attrLabels[key.toLowerCase()] || key;
+            var label = attrLabels[key] || attrLabels[key.toLowerCase()] || key;
             var isColor = key.toLowerCase() === 'color' || key.toLowerCase().includes('color');
             if (isColor) {
               var bgColor = window.getConfiguredColorSwatchHex(item, key, value);
@@ -2958,6 +3001,7 @@ function stripHtmlToText(html) {
       const data = await res.json();
       if (data.success && Array.isArray(data.data)) {
         seasonalDiscounts = data.data;
+        updateOrderTotals();
       }
     } catch (e) {
       console.warn('[E-COMMERCE] Failed to load seasonal discounts', e);
@@ -2989,8 +3033,7 @@ function stripHtmlToText(html) {
       for (var j = 0; j < cart.length; j++) {
         var item = cart[j];
         if (appliesToAll || ids.indexOf(item.id) !== -1) {
-          var price = parseFloat(item.sale_price && parseFloat(item.sale_price) < parseFloat(item.price) ? item.sale_price : item.price) || 0;
-          eligibleSubtotal += price * (parseInt(item.quantity) || 1);
+          eligibleSubtotal += getCartLineTotal(item);
         }
       }
 
@@ -6700,23 +6743,19 @@ function renderProductDetail(container, product, t) {
       }
     });
     
-    // Attribute label translations
-    const attrLabels = {
-      color: t.color || 'Color',
-      size: t.size || 'Size',
-      material: t.material || 'Material',
-      style: t.style || 'Style',
-      weight: t.weight || 'Weight',
-      capacity: t.capacity || 'Capacity',
-      length: t.length || 'Length'
-    };
+    // Attribute label translations, including saved labels for custom options.
+    const attrLabels = getVariantAttributeLabels(product, t);
+    const getAttrLabel = (attrKey) =>
+      attrLabels[attrKey] ||
+      attrLabels[String(attrKey).toLowerCase()] ||
+      String(attrKey).charAt(0).toUpperCase() + String(attrKey).slice(1);
     
     const hasAttributeGroups = Object.keys(attributeGroups).length > 0;
     
     // Build variant groups HTML
     const groupsHtml = hasAttributeGroups
       ? Object.entries(attributeGroups).map(([attrKey, values]) => {
-        const label = attrLabels[attrKey.toLowerCase()] || attrKey.charAt(0).toUpperCase() + attrKey.slice(1);
+        const label = getAttrLabel(attrKey);
         const sizeOrder = {'xxxs':0,'xxs':1,'xs':2,'s':3,'m':4,'l':5,'xl':6,'xxl':7,'2xl':7,'xxxl':8,'3xl':8,'4xl':9,'5xl':10};
         const valuesArray = Array.from(values).sort((a, b) => {
           const sa = sizeOrder[String(a).toLowerCase()], sb = sizeOrder[String(b).toLowerCase()];
@@ -7542,12 +7581,29 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
     // Use variant's own price if set, otherwise fall back to base price
     const variantPrice = variant.price ? parseFloat(variant.price) : null;
     const finalPrice = variantPrice !== null ? variantPrice : basePrice;
+    let displayedFinalPrice = finalPrice;
+    let displayOriginalPrice = variantPrice !== null ? finalPrice : originalPrice;
+
+    const seasonalD = typeof getSeasonalDiscountForProduct === 'function'
+      ? getSeasonalDiscountForProduct(product.id)
+      : null;
+    if (seasonalD && finalPrice > 0) {
+      if (seasonalD.type === 'percentage') {
+        displayedFinalPrice = finalPrice - (finalPrice * parseFloat(seasonalD.value) / 100);
+      } else if (seasonalD.type === 'fixed') {
+        displayedFinalPrice = Math.max(0, finalPrice - parseFloat(seasonalD.value));
+      }
+      if (!Number.isFinite(displayedFinalPrice) || displayedFinalPrice >= finalPrice) {
+        displayedFinalPrice = finalPrice;
+      } else {
+        displayOriginalPrice = finalPrice;
+      }
+    }
     
     if (priceDisplay) {
-      // If variant has its own price, don't show original/sale price comparison
-      if (variantPrice !== null) {
-        priceDisplay.textContent = t.currency + finalPrice.toFixed(2);
-      } else if (hasSalePrice) {
+      if (displayedFinalPrice < finalPrice) {
+        priceDisplay.innerHTML = t.currency + displayedFinalPrice.toFixed(2) + ' <span class="original-price">' + t.currency + displayOriginalPrice.toFixed(2) + '</span>';
+      } else if (variantPrice === null && hasSalePrice) {
         priceDisplay.innerHTML = t.currency + finalPrice.toFixed(2) + ' <span class="original-price">' + t.currency + originalPrice.toFixed(2) + '</span>';
       } else {
         priceDisplay.textContent = t.currency + finalPrice.toFixed(2);
@@ -7555,7 +7611,7 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
     }
     
     // Update price-per-unit info to match the variant's effective price
-    updatePricePerUnitDisplay(finalPrice, product, t);
+    updatePricePerUnitDisplay(displayedFinalPrice, product, t);
     
     // Update stock status
     const variantInStock = variant.stock_status !== 'out_of_stock';
@@ -7710,7 +7766,8 @@ function addProductToCart() {
     quantity: quantity,
     quantityUnit: quantityUnit,
     quantityStep: quantityStep,
-    customUnitLabel: customUnitLabel
+    customUnitLabel: customUnitLabel,
+    variant_config: product.variant_config || product.variantConfig || null
   };
   
   if (selectedVariant) {
@@ -8007,73 +8064,68 @@ async function loadRelatedProducts(currentProduct, t) {
         var mPos = img.getAttribute('data-zappy-mobile-object-position');
         var mZoomStr = img.getAttribute('data-zappy-mobile-zoom');
         var mZoom = parseFloat(mZoomStr);
-        var hasMobileOverrides = mPos || mZoomStr;
         if (mSrc) img.src = mSrc;
 
-        if (hasMobileOverrides) {
-          // User configured mobile zoom/position — apply zoom/crop math
-          // to match what the editor mobile preview shows.
-          wrapper.style.setProperty('width', '100%', 'important');
-          wrapper.style.setProperty('max-width', '100%', 'important');
-          wrapper.style.setProperty('overflow', 'hidden', 'important');
-          wrapper.style.setProperty('position', 'relative', 'important');
-          var _sW = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-width')) || 0;
-          var _sH = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-height')) || 0;
-          if (_sW > 0 && _sH > 0) {
-            wrapper.style.setProperty('aspect-ratio', _sW + '/' + _sH, 'important');
-            wrapper.style.setProperty('height', 'auto', 'important');
-          }
-          var effZoom = (isFinite(mZoom) && mZoom > 0) ? mZoom : zoom;
-          var effPos = mPos || '50% 50%';
+        wrapper.style.setProperty('width', '100%', 'important');
+        wrapper.style.setProperty('max-width', '100%', 'important');
+        wrapper.style.setProperty('overflow', 'hidden', 'important');
+        wrapper.style.setProperty('position', 'relative', 'important');
 
-          function applyMobileZoomCrop(_img, _wrapper, _effPos, _effZoom) {
-            var rect = _wrapper.getBoundingClientRect();
-            if (!rect || !rect.width || !rect.height) return;
-            var nW = _img.naturalWidth || 0, nH = _img.naturalHeight || 0;
-            if (!(nW > 0 && nH > 0)) return;
-            var imgA = nW / nH;
-            var contA = rect.width / rect.height;
-            var cover = coverPercents(imgA, contA);
-            var wP = 100, hP = 100;
-            if (_effZoom >= 1) { wP = cover.w * _effZoom; hP = cover.h * _effZoom; }
-            else { var t2 = (_effZoom - 0.5) / 0.5; if (!isFinite(t2)) t2 = 0; t2 = Math.max(0, Math.min(1, t2)); wP = 100 + t2 * (cover.w - 100); hP = 100 + t2 * (cover.h - 100); }
-            var p2 = parseObjPos(_effPos);
-            var lP = (100 - wP) * (p2.x / 100);
-            var tP = (100 - hP) * (p2.y / 100);
-            _img.style.setProperty('position', 'absolute', 'important');
-            _img.style.setProperty('left', lP + '%', 'important');
-            _img.style.setProperty('top', tP + '%', 'important');
-            _img.style.setProperty('width', wP + '%', 'important');
-            _img.style.setProperty('height', hP + '%', 'important');
-            _img.style.setProperty('max-width', 'none', 'important');
-            _img.style.setProperty('max-height', 'none', 'important');
-            _img.style.setProperty('display', 'block', 'important');
-            _img.style.setProperty('object-fit', _effZoom < 1 ? 'fill' : 'cover', 'important');
-            _img.style.setProperty('margin', '0', 'important');
-          }
+        var _sW = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-width')) || 0;
+        var _sH = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-height')) || 0;
+        if (_sW > 0 && _sH > 0) {
+          wrapper.style.setProperty('padding-bottom', '0', 'important');
+          wrapper.style.setProperty('aspect-ratio', _sW + '/' + _sH, 'important');
+          wrapper.style.setProperty('height', 'auto', 'important');
+        }
 
+        function applyMobileZoomCrop(_img, _wrapper, _effPos, _effZoom) {
+          var rect = _wrapper.getBoundingClientRect();
+          if (!rect || !rect.width || !rect.height) return;
+          var nW = _img.naturalWidth || 0, nH = _img.naturalHeight || 0;
+          if (!(nW > 0 && nH > 0)) return;
+          var imgA = nW / nH;
+          var contA = rect.width / rect.height;
+          var cover = coverPercents(imgA, contA);
+          var wP = 100, hP = 100;
+          if (_effZoom >= 1) { wP = cover.w * _effZoom; hP = cover.h * _effZoom; }
+          else { var t2 = (_effZoom - 0.5) / 0.5; if (!isFinite(t2)) t2 = 0; t2 = Math.max(0, Math.min(1, t2)); wP = 100 + t2 * (cover.w - 100); hP = 100 + t2 * (cover.h - 100); }
+          var p2 = parseObjPos(_effPos);
+          var lP = (100 - wP) * (p2.x / 100);
+          var tP = (100 - hP) * (p2.y / 100);
+          _img.style.setProperty('position', 'absolute', 'important');
+          _img.style.setProperty('left', lP + '%', 'important');
+          _img.style.setProperty('top', tP + '%', 'important');
+          _img.style.setProperty('width', wP + '%', 'important');
+          _img.style.setProperty('height', hP + '%', 'important');
+          _img.style.setProperty('max-width', 'none', 'important');
+          _img.style.setProperty('max-height', 'none', 'important');
+          _img.style.setProperty('display', 'block', 'important');
+          _img.style.setProperty('object-fit', _effZoom < 1 ? 'fill' : 'cover', 'important');
+          _img.style.setProperty('margin', '0', 'important');
+        }
+
+        var effZoom = (isFinite(mZoom) && mZoom > 0) ? mZoom : zoom;
+        var effPos = mPos || img.getAttribute('data-zappy-object-position') || img.style.objectPosition || '50% 50%';
+        if (_sW > 0 && _sH > 0) {
           applyMobileZoomCrop(img, wrapper, effPos, effZoom);
-
-          // If src changed, the image may not be loaded yet (naturalWidth=0).
-          // Re-apply after it loads so the zoom math uses correct dimensions.
-          if (mSrc && !(img.complete && img.naturalWidth > 0)) {
+          if (!(img.complete && img.naturalWidth > 0)) {
             img.addEventListener('load', function _onLoad() {
               img.removeEventListener('load', _onLoad);
               try { applyMobileZoomCrop(img, wrapper, effPos, effZoom); } catch(e) {}
             });
           }
-          return;
+        } else {
+          img.style.setProperty('position', 'relative', 'important');
+          img.style.setProperty('width', '100%', 'important');
+          img.style.setProperty('height', 'auto', 'important');
+          img.style.setProperty('max-width', '100%', 'important');
+          img.style.setProperty('display', 'block', 'important');
+          img.style.setProperty('object-fit', 'cover', 'important');
+          img.style.removeProperty('left');
+          img.style.removeProperty('top');
+          img.style.setProperty('margin', '0', 'important');
         }
-
-        img.style.setProperty('position', 'relative', 'important');
-        img.style.setProperty('width', '100%', 'important');
-        img.style.setProperty('height', 'auto', 'important');
-        img.style.setProperty('max-width', '100%', 'important');
-        img.style.setProperty('display', 'block', 'important');
-        img.style.setProperty('object-fit', 'cover', 'important');
-        img.style.removeProperty('left');
-        img.style.removeProperty('top');
-        img.style.setProperty('margin', '0', 'important');
         return;
       }
 
