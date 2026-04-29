@@ -9708,6 +9708,133 @@ a, button {
   color: var(--text-dark);
 }
 
+/* Upsells (frequently bought together) on the product detail page.
+   Rendered inline with the rest of the product info — no card chrome
+   (border / background / radius) so it blends with the surrounding
+   variant selectors and stock badge.
+   The Star Shoes site (and other branded V2 sites) cascade an accent color
+   onto descendant links/text inside .product-info, which made the upsell
+   product names render in the brand accent (e.g. yellow) instead of body
+   text. The selectors below are scoped to .product-upsells and explicitly
+   set color: var(--text-dark) so theme accents do NOT bleed into upsell rows.
+   List bullets are also suppressed since the rows render their own checkbox. */
+.product-upsells {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 16px 0;
+}
+.product-upsells .upsells-header { margin: 0 0 8px; }
+.product-upsells .upsells-subtitle {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+.product-upsells .upsells-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.product-upsells .upsell-row {
+  list-style: none !important;
+  border-top: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+}
+.product-upsells .upsell-row::marker { content: '' !important; }
+.product-upsells .upsell-row::before { content: none !important; }
+.product-upsells .upsell-row:first-child { border-top: none; }
+.product-upsells .upsell-row:focus-visible {
+  box-shadow: inset 0 0 0 2px var(--accent, var(--primary));
+  border-radius: 4px;
+}
+.product-upsells .upsell-row.is-out-of-stock {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.product-upsells .upsell-checkbox {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: var(--accent, var(--primary));
+  margin: 0;
+}
+.product-upsells .upsell-row.is-out-of-stock .upsell-checkbox { cursor: not-allowed; }
+.product-upsells .upsell-row-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.product-upsells .upsell-name {
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  line-height: 1.3;
+  word-break: break-word;
+  max-width: 100%;
+}
+.product-upsells .upsell-name:hover {
+  color: var(--accent, var(--primary));
+  text-decoration: underline;
+}
+.product-upsells .upsell-stock-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #b91c1c;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.product-upsells .upsell-price {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.product-upsells .upsell-price.upsell-price-free {
+  color: #047857;
+  background: #d1fae5;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.product-upsells .upsells-total {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-light);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+.product-upsells .upsells-total-amount {
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.product-upsells .upsells-total-count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+@media (max-width: 480px) {
+  .product-upsells .upsell-row { gap: 8px; }
+}
+
 /* Category page */
 .category-header { margin-bottom: 32px; }
 .category-header-loading { text-align: center; padding: 40px; }
