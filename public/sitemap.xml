@@ -2,92 +2,434 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zy-skate-club.co.il</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/experience</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/about</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/contact</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/products</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/cart</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/checkout</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/login</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/account</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/order-success</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/product/:slug</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/category/:slug</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/privacy</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/terms</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://zy-skate-club.co.il/accessibility</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/gryp-santa-cruz-t5inhu</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/verb-skyytbvrd-mydh-8-6gf1qd</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/mob-gryp-lkrsh-skyytbvrd-5xuaze</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-75-36nrld</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-8-eowl3s</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/kvmplt-chocolate-mydh-775-w47v28</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/kvmpt-snth-krvz-mydh-775-idpqtn</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/kvmplt-kfd-rkusvh</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/chvltst-zy-skate-club-da66i1</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-riorl7</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-e4h3d6</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-0vqjkm</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-85-frsyom</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-w8pilk</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-nr1pvp</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-ux73bt</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-68si73</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-55yh6t</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-mydh-80-59evlm</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-jcggl9</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-xfs1de</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/zion-krsh-skyytbvrd-825-bri0s1</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-1o9hge</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-e55inn</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-8bea4w</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-ness6a</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-wbrlmu</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/krsh-jart-mydh-825-714pk9</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/creature-krsh-lskyytbvrd-bmydh-825-j1dck1</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-3tkjli</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/bones-glglym-100a-53mm-800avi</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/bones-glglym-lskyytbvrd-stf-v2-99a-oynnk3</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/krux-tsyrym-lskyytbvrd-bmydh-144-sd713r</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/bronson-lagrym-lskyytbvrd-jgfkw3</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/bones-lagrym-lskyytbvrd-reds-dahkb7</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/shake-junt-lagrym-lskyytbvrd-fe3xx9</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tool-tshvb-ngzeja</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/brgym-briza-cczczw</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/brgym-bolts-wanw22</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/mgnym-mydh-s-13ea8b</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/briza-offer-or-53-mm-pro-04djyk</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/briza-snakecat-55-mm-104a-3ufdm5</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/briza-playground-new-nr7gzj</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/briza-x-hypnotize-52-mm-nr4mac</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/mysby-bryzh-prv-drwebp</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/mysbym-mdgm-santo-pro-fexxj3</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-krux-bmydh-144-c8bqrk</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-144-6rns93</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-jpiuuu</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-p0kzk6</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-independent-mydh-139-n2pprf</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-u6a3hx</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-6extlx</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/ksdh-mydh-l-61x8ln</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-40j7ov</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/tsyrym-independent-hollow-mydh-144-2uakry</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://zy-skate-club.co.il/product/krsh-mchbrt-snth-krvz-825-f5e6dw</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

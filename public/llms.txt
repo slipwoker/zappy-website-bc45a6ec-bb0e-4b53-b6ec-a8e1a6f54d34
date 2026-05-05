@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# ZY SKATE CLUB — Generative Engine Optimization Map
+
+> A skateboard shop catering to skateboarding enthusiasts. The business revolves around skateboarding culture, offering products and services related to the sport. The brand likely carries an urban, street-culture vibe that resonates with the skateboarding community.
 
 ---
 
@@ -68,12 +70,482 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+**Total active products: 57**
+
+### גריפ - Santa Cruz
+https://zy-skate-club.co.il/product/gryp-santa-cruz-t5inhu
+- Price: 64.00 ILS (sale, was 80.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: גריפ - Santa Cruz
+- Image: https://zy-skate-club.co.il/assets/product-1776964646317-reyan.webp
+
+### VERB -  סקייטבורד מידה 8
+https://zy-skate-club.co.il/product/verb-skyytbvrd-mydh-8-6gf1qd
+- Price: 416.00 ILS (sale, was 520.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: VERB - סקייטבורד מידה 8
+- Image: https://zy-skate-club.co.il/assets/product-1776964450548-dwhgmk.webp
+
+### MOB - גריפ לקרש סקייטבורד
+https://zy-skate-club.co.il/product/mob-gryp-lkrsh-skyytbvrd-5xuaze
+- Price: 32.00 ILS (sale, was 40.00 ILS)
+- Availability: In stock
+- Category: אביזרים
+- Description: MOB - גריפ לקרש סקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776964309159-8u7gih.webp
+
+### KFD - קומפלט מידה 7.5
+https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-75-36nrld
+- Price: 480.00 ILS (sale, was 600.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: KFD - קומפלט מידה 7.5
+- Image: https://zy-skate-club.co.il/assets/product-1776963704918-cj4f.webp
+
+### KFD - קומפלט מידה 8
+https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-8-eowl3s
+- Price: 480.00 ILS (sale, was 600.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: KFD - קומפלט מידה 8
+- Image: https://zy-skate-club.co.il/assets/product-1776963588358-mt1jzm.webp
+
+### קומפלט - Chocolate מידה 7.75
+https://zy-skate-club.co.il/product/kvmplt-chocolate-mydh-775-w47v28
+- Price: 480.00 ILS (sale, was 600.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: קומפלט - Chocolate מידה 7.75
+- Image: https://zy-skate-club.co.il/assets/product-1776963424851-6xba8.webp
+
+### קומפט סנטה קרוז מידה 7.75
+https://zy-skate-club.co.il/product/kvmpt-snth-krvz-mydh-775-idpqtn
+- Price: 480.00 ILS (sale, was 600.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: קומפט סנטה קרוז מידה 7.75
+- Image: https://zy-skate-club.co.il/assets/product-1776963365666-8kmrzi.webp
+
+### קומפלט KFD 
+https://zy-skate-club.co.il/product/kvmplt-kfd-rkusvh
+- Price: 416.00 ILS (sale, was 520.00 ILS)
+- Availability: In stock
+- Category: קמפלטים
+- Description: מתאים לגילאים 5 - 8
+- Image: https://zy-skate-club.co.il/assets/product-1776963213449-nnv1hs.webp
+
+### חולצת - ZY SKATE CLUB
+https://zy-skate-club.co.il/product/chvltst-zy-skate-club-da66i1
+- Price: 52.80 ILS (sale, was 66.00 ILS)
+- Availability: In stock
+- Category: אביזרים
+- Description: ליצור קשר לתיאום מידה
+- Image: https://zy-skate-club.co.il/assets/product-1776963073577-mznm9.webp
+
+### ZION - קרש מידה 8.125
+https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-riorl7
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION - קרש מידה 8.125 {זמין במלאי באפור ואדום}
+- Image: https://zy-skate-club.co.il/assets/product-1776961965131-tp9zvn.webp
+
+### ZION - קרש מידה 8.125
+https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-e4h3d6
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION - קרש מידה 8.125
+- Image: https://zy-skate-club.co.il/assets/product-1776961920235-spck3n.webp
+
+### ZION - קרש מידה 8.125
+https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-0vqjkm
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION - קרש מידה 8.125
+- Image: https://zy-skate-club.co.il/assets/product-1776961860459-u8qc3q.webp
+
+### ZION - קרש מידה 8.5
+https://zy-skate-club.co.il/product/zion-krsh-mydh-85-frsyom
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION - קרש מידה 8.5 {הקרש במידה 8.5 קיים בעוד גרפיקות ניתן ליצור קשר}
+- Image: https://zy-skate-club.co.il/assets/product-1776961679846-1livkq.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-w8pilk
+- Price: 239.98 ILS (sale, was 299.98 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776876902815-9a7e4m.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-nr1pvp
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776876869125-3w87dn.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-ux73bt
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776876844187-j48xs3.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-68si73
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776876818163-20yf4.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-55yh6t
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0 (צבע אפור חסר במלאי יש בצבע סגול ואדום)
+- Image: https://zy-skate-club.co.il/assets/product-1776876733080-k851oh.webp
+
+### ZION קרש מידה 8.0
+https://zy-skate-club.co.il/product/zion-krsh-mydh-80-59evlm
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION קרש מידה 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776876596919-ra4b08.webp
+
+### Boulevard -  8.0 קרש לסקייטבורד 
+https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-jcggl9
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Boulevard - 8.0 קרש לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776876535538-acpdpg.webp
+
+### Boulevard -  8.0 קרש לסקייטבורד 
+https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-xfs1de
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Boulevard - 8.0 קרש לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776876481873-42rxas.webp
+
+### ZION - קרש סקייטבורד 8.25
+https://zy-skate-club.co.il/product/zion-krsh-skyytbvrd-825-bri0s1
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: ZION - קרש סקייטבורד 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776873439397-ysckp.webp
+
+### Stereo - 8.25 קרש מקצועי לסקייטבורד
+https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-1o9hge
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Stereo - 8.25 קרש מקצועי לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776873319007-34ytd.webp
+
+### Stereo - 8.25 קרש מקצועי לסקייטבורד
+https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-e55inn
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Stereo - 8.25 קרש מקצועי לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776873236999-m1fx1m.webp
+
+### Boulevard -  8.25 קרש לסקייטבורד 
+https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-8bea4w
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Boulevard - 8.25 קרש לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776873205622-glmi4.webp
+
+### Santa Cruz - קרש לסקייטבורד במידה 8.25
+https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-ness6a
+- Price: 272.00 ILS (sale, was 340.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Santa Cruz - קרש לסקייטבורד במידה 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776872941137-7lqs4i.webp
+
+### Santa Cruz - קרש לסקייטבורד במידה 8.25
+https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-wbrlmu
+- Price: 272.00 ILS (sale, was 340.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Santa Cruz - קרש לסקייטבורד במידה 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776872908231-3rq50r.webp
+
+### קרש Jart מידה  8.25
+https://zy-skate-club.co.il/product/krsh-jart-mydh-825-714pk9
+- Price: 272.00 ILS (sale, was 340.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: קרש Jart מידה 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776872286256-psh5p.webp
+
+### Creature - קרש לסקייטבורד במידה 8.25
+https://zy-skate-club.co.il/product/creature-krsh-lskyytbvrd-bmydh-825-j1dck1
+- Price: 272.00 ILS (sale, was 340.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Creature - קרש לסקייטבורד במידה 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776872181360-xg80k7.webp
+
+### Boulevard -  8.25 קרש לסקייטבורד 
+https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-3tkjli
+- Price: 224.00 ILS (sale, was 280.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Boulevard - 8.25 קרש לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776640893313-ff89hd.webp
+
+### BONES - גלגלים 100A 53mm
+https://zy-skate-club.co.il/product/bones-glglym-100a-53mm-800avi
+- Price: 264.00 ILS (sale, was 330.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Image: https://zy-skate-club.co.il/assets/product-1776640690338-wnb0l8.webp
+
+### Bones - גלגלים לסקייטבורד STF V2 99A
+https://zy-skate-club.co.il/product/bones-glglym-lskyytbvrd-stf-v2-99a-oynnk3
+- Price: 264.00 ILS (sale, was 330.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Description: גלגלים מקצועיים לסקייטבורד של חברת Bones. מידת קשיחות: 99A
+- Image: https://zy-skate-club.co.il/assets/product-1776640617989-zt85zs.webp
+
+### Krux - צירים לסקייטבורד במידה 144
+https://zy-skate-club.co.il/product/krux-tsyrym-lskyytbvrd-bmydh-144-sd713r
+- Price: 232.00 ILS (sale, was 290.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: 144 - מתאים לקרשים במידות 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776640531261-p0nude.webp
+
+### Bronson - לאגרים לסקייטבורד
+https://zy-skate-club.co.il/product/bronson-lagrym-lskyytbvrd-jgfkw3
+- Price: 135.20 ILS (sale, was 169.00 ILS)
+- Availability: In stock
+- Category: לאגרים
+- Image: https://zy-skate-club.co.il/assets/product-1776640477760-c6dews.webp
+
+### Bones - לאגרים לסקייטבורד Reds
+https://zy-skate-club.co.il/product/bones-lagrym-lskyytbvrd-reds-dahkb7
+- Price: 135.20 ILS (sale, was 169.00 ILS)
+- Availability: In stock
+- Category: לאגרים
+- Image: https://zy-skate-club.co.il/assets/product-1776640432022-bpuofc.webp
+
+### Shake Junt - לאגרים לסקייטבורד  
+https://zy-skate-club.co.il/product/shake-junt-lagrym-lskyytbvrd-fe3xx9
+- Price: 135.20 ILS (sale, was 169.00 ILS)
+- Availability: In stock
+- Category: לאגרים
+- Image: https://zy-skate-club.co.il/assets/product-1776640334858-q3yv88.webp
+
+### TOOL צהוב 
+https://zy-skate-club.co.il/product/tool-tshvb-ngzeja
+- Price: 36.00 ILS (sale, was 45.00 ILS)
+- Availability: In stock
+- Category: אביזרים
+- Image: https://zy-skate-club.co.il/assets/product-1776640263859-84f3.webp
+
+### ברגים BRIZA
+https://zy-skate-club.co.il/product/brgym-briza-cczczw
+- Price: 31.20 ILS (sale, was 39.00 ILS)
+- Availability: In stock
+- Category: ברגים
+- Image: https://zy-skate-club.co.il/assets/product-1776640181904-3jm0kl.webp
+
+### ברגים BOLTS 
+https://zy-skate-club.co.il/product/brgym-bolts-wanw22
+- Price: 40.00 ILS (sale, was 50.00 ILS)
+- Availability: In stock
+- Category: ברגים
+- Image: https://zy-skate-club.co.il/assets/product-1776640102686-ifx1ho.webp
+
+### מגנים מידה S
+https://zy-skate-club.co.il/product/mgnym-mydh-s-13ea8b
+- Price: 95.98 ILS (sale, was 119.97 ILS)
+- Availability: In stock
+- Category: מיגון
+- Description: מגנים מידה S מתאים לגילאים 7 - 10
+- Image: https://zy-skate-club.co.il/assets/product-1776639907049-71wv5l.webp
+
+### BRIZA OFFER OR 53 MM PRO
+https://zy-skate-club.co.il/product/briza-offer-or-53-mm-pro-04djyk
+- Price: 183.20 ILS (sale, was 229.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Description: גלגלים 53 מ"מ עם דורומטר 104A מהדורה מוגבלת של briza ofer
+- Image: https://zy-skate-club.co.il/assets/product-1776639769289-ob97c8.webp
+
+### BRIZA SNAKECAT 55 MM 104A
+https://zy-skate-club.co.il/product/briza-snakecat-55-mm-104a-3ufdm5
+- Price: 183.20 ILS (sale, was 229.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Description: גלגלים בקוטר 55 מ"מ עם דורומטר 104A - מיועדים לסקייטרים ברחוב שרוצים שליטה, מהירות ותחושה מאוזנת.
+- Image: https://zy-skate-club.co.il/assets/product-1776639658099-32tfyc.webp
+
+### Briza playground new
+https://zy-skate-club.co.il/product/briza-playground-new-nr7gzj
+- Price: 191.20 ILS (sale, was 239.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Description: מידה 52 מ״מ 104a
+- Image: https://zy-skate-club.co.il/assets/product-1776639539637-qgg9am.webp
+
+### BRIZA X HYPNOTIZE 52 MM
+https://zy-skate-club.co.il/product/briza-x-hypnotize-52-mm-nr4mac
+- Price: 183.20 ILS (sale, was 229.00 ILS)
+- Availability: In stock
+- Category: גלגלים
+- Description: גלגלים בקוטר 52 מ"מ עם דורומטר 104A
+- Image: https://zy-skate-club.co.il/assets/product-1776639357282-qr3ak.webp
+
+### מיסבי בריזה פרו
+https://zy-skate-club.co.il/product/mysby-bryzh-prv-drwebp
+- Price: 111.20 ILS (sale, was 139.00 ILS)
+- Availability: In stock
+- Category: לאגרים
+- Description: מיסבים מדגם מקצועי בעל ביצועים גבוהים
+- Image: https://zy-skate-club.co.il/assets/product-1776639189099-rx414s.webp
+
+### מיסבים מדגם SANTO PRO
+https://zy-skate-club.co.il/product/mysbym-mdgm-santo-pro-fexxj3
+- Price: 111.20 ILS (sale, was 139.00 ILS)
+- Availability: In stock
+- Category: לאגרים
+- Description: מיסבים מדגם מקצועי בעל ביצועים גבוהים הנושאים את השם סנטו - מהדורה ייחודית מומלצת מעוצב עם Ultra Glide המתקדם והעמיד בפני אבק של Briza לביצועים חלקים, מהירים ועמידים במיוחד
+- Image: https://zy-skate-club.co.il/assets/product-1776639012487-9uw3tq.webp
+
+### צירים Krux במידה 144
+https://zy-skate-club.co.il/product/tsyrym-krux-bmydh-144-c8bqrk
+- Price: 232.00 ILS (sale, was 290.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: 144 - מתאים לקרשים במידות 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776638427551-zh4g55.webp
+
+### צירים - Silver Hollow מידה 144
+https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-144-6rns93
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: 144 - מתאים לקרשים במידה 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776638176354-yakvve.webp
+
+### צירים - Silver Hollow מידה 139
+https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-jpiuuu
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: מידה 139 - מתאים לקרשים במידות 7.75 - 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776637939639-kebnl7.webp
+
+### צירים - Silver Hollow מידה 139
+https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-p0kzk6
+- Price: 240.00 ILS (sale, was 300.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: מידה 139 - מתאים לקרשים במידה 7.75 - 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776637754891-yji9mym.webp
+
+### צירים Independent מידה 139
+https://zy-skate-club.co.il/product/tsyrym-independent-mydh-139-n2pprf
+- Price: 256.00 ILS (sale, was 320.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: 139 - מתאים לקרשים במידות 7.75 - 8.0
+- Image: https://zy-skate-club.co.il/assets/product-1776637585684-txf30p.webp
+
+### צירים Independent מידה 144
+https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-u6a3hx
+- Price: 256.00 ILS (sale, was 320.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: 144 - מתאים לקרשים במידה 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776637419011-tk6xl.webp
+
+### צירים Independent מידה 144
+https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-6extlx
+- Price: 256.00 ILS (sale, was 320.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: מידה 144 - מתאים לקרשים במידה 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776637284279-fvbdv.webp
+
+### קסדה מידה L
+https://zy-skate-club.co.il/product/ksdh-mydh-l-61x8ln
+- Price: 120.00 ILS (sale, was 150.00 ILS)
+- Availability: In stock
+- Category: מיגון
+- Description: קסדה מידה L מתאימה למבוגרים בצבע לבן
+- Image: https://zy-skate-club.co.il/assets/product-1776626176024-4unrd.webp
+
+### Boulevard -  8.25 קרש לסקייטבורד 
+https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-40j7ov
+- Price: 232.00 ILS (sale, was 290.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: Boulevard - 8.25 קרש לסקייטבורד
+- Image: https://zy-skate-club.co.il/assets/product-1776625999684-0k9ssl.webp
+
+### צירים Independent Hollow מידה 144
+https://zy-skate-club.co.il/product/tsyrym-independent-hollow-mydh-144-2uakry
+- Price: 288.00 ILS (sale, was 360.00 ILS)
+- Availability: In stock
+- Category: צירים
+- Description: צירים מקצועיים של Independent חלולים 144 - מתאים לקרשים במידה 8.0 - 8.5
+- Image: https://zy-skate-club.co.il/assets/product-1776601347409-pnc7sk.webp
+
+### קרש מחברת סנטה קרוז 8.25
+https://zy-skate-club.co.il/product/krsh-mchbrt-snth-krvz-825-f5e6dw
+- Price: 272.00 ILS (sale, was 340.00 ILS)
+- Availability: In stock
+- Category: קרשים
+- Description: קרש מקצועי סנטה קרוז מידה 8.25
+- Image: https://zy-skate-club.co.il/assets/product-1776600832039-wn9sz9.webp
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://zy-skate-club.co.il/sitemap.xml
-- **Robots.txt**: https://zy-skate-club.co.il/robots.txt
+## About ZY SKATE CLUB
+A skateboard shop catering to skateboarding enthusiasts. The business revolves around skateboarding culture, offering products and services related to the sport. The brand likely carries an urban, street-culture vibe that resonates with the skateboarding community.
+
+## Target Audience
+- בני נוער עירוניים
+- סטודנטים חובבי סקייטבורד
+- צעירים מקצועיים וחובבי כושר
+- הורים לילדים חובבי סקייטבורד
+- חובבי ספורט אקסטרים
+
+## Industry
+ספורט וציוד פנאי
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://zy-skate-club.co.il/sitemap.xml
+- Robots: https://zy-skate-club.co.il/robots.txt
+- Flattened page text (for LLMs): https://zy-skate-club.co.il/llms-full.txt
+- Products (JSON): https://zy-skate-club.co.il/products.json
+- Products (Google Merchant RSS): https://zy-skate-club.co.il/product-feed.xml
