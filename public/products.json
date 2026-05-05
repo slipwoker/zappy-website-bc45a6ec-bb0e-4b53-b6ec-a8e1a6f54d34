@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T20:28:47.602Z",
+  "generated_at": "2026-05-05T20:30:14.119Z",
   "base_url": "https://zy-skate-club.co.il",
   "currency": "ILS",
   "count": 57,
@@ -32,27 +32,27 @@
     },
     {
       "id": "c3f13941-283c-4b4d-905e-ef47c8947d14",
-      "slug": "verb-skyytbvrd-mydh-8-6gf1qd",
+      "slug": "verb-skyytbvrd-mydh-8-dflxcx",
       "name": "VERB -  סקייטבורד מידה 8",
       "name_translations": {},
       "description": "",
       "short_description": "VERB -  סקייטבורד מידה 8",
       "sku": null,
       "brand": null,
-      "price": 416,
-      "base_price": 520,
-      "sale_price": 416,
+      "price": 479.99,
+      "base_price": 600,
+      "sale_price": 479.99,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776964450548-dwhgmk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/verb-skyytbvrd-mydh-8-6gf1qd",
+      "url": "https://zy-skate-club.co.il/product/verb-skyytbvrd-mydh-8-dflxcx",
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-04-26T13:13:33.363Z"
+      "updated_at": "2026-05-05T20:28:57.133Z"
     },
     {
       "id": "3e6cef84-8e85-48f0-babf-7e5eaf1ef801",
@@ -129,35 +129,59 @@
     },
     {
       "id": "cf32558e-2321-44fc-9724-0ffccafe0af1",
-      "slug": "kvmplt-chocolate-mydh-775-w47v28",
+      "slug": "kvmplt-chocolate-mydh-775-kywpfq",
       "name": "קומפלט - Chocolate מידה 7.75",
       "name_translations": {},
       "description": "",
       "short_description": "קומפלט - Chocolate מידה 7.75",
       "sku": null,
       "brand": null,
-      "price": 480,
-      "base_price": 600,
-      "sale_price": 480,
+      "price": 560,
+      "base_price": 700,
+      "sale_price": 560,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963424851-6xba8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/kvmplt-chocolate-mydh-775-w47v28",
+      "url": "https://zy-skate-club.co.il/product/kvmplt-chocolate-mydh-775-kywpfq",
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-04-26T13:13:33.475Z"
+      "updated_at": "2026-05-05T20:30:09.972Z"
     },
     {
       "id": "359c640b-0de0-4764-8516-59930fb67912",
-      "slug": "kvmpt-snth-krvz-mydh-775-idpqtn",
+      "slug": "kvmpt-snth-krvz-mydh-775-7wnly1",
       "name": "קומפט סנטה קרוז מידה 7.75",
       "name_translations": {},
       "description": "",
       "short_description": "קומפט סנטה קרוז מידה 7.75",
+      "sku": null,
+      "brand": null,
+      "price": 560,
+      "base_price": 700,
+      "sale_price": 560,
+      "currency": "ILS",
+      "images": [
+        "https://zy-skate-club.co.il/assets/product-1776963365666-8kmrzi.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://zy-skate-club.co.il/product/kvmpt-snth-krvz-mydh-775-7wnly1",
+      "categories": [
+        "קמפלטים"
+      ],
+      "updated_at": "2026-05-05T20:29:43.296Z"
+    },
+    {
+      "id": "93abbd0c-15d7-4603-904c-584749ac5bc5",
+      "slug": "kvmplt-kfd-9e4aw4",
+      "name": "קומפלט KFD ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מתאים לגילאים 5 - 8",
       "sku": null,
       "brand": null,
       "price": 480,
@@ -165,39 +189,15 @@
       "sale_price": 480,
       "currency": "ILS",
       "images": [
-        "https://zy-skate-club.co.il/assets/product-1776963365666-8kmrzi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/kvmpt-snth-krvz-mydh-775-idpqtn",
-      "categories": [
-        "קמפלטים"
-      ],
-      "updated_at": "2026-04-26T13:13:33.503Z"
-    },
-    {
-      "id": "93abbd0c-15d7-4603-904c-584749ac5bc5",
-      "slug": "kvmplt-kfd-rkusvh",
-      "name": "קומפלט KFD ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מתאים לגילאים 5 - 8",
-      "sku": null,
-      "brand": null,
-      "price": 416,
-      "base_price": 520,
-      "sale_price": 416,
-      "currency": "ILS",
-      "images": [
         "https://zy-skate-club.co.il/assets/product-1776963213449-nnv1hs.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/kvmplt-kfd-rkusvh",
+      "url": "https://zy-skate-club.co.il/product/kvmplt-kfd-9e4aw4",
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-04-26T13:13:33.533Z"
+      "updated_at": "2026-05-05T20:29:21.373Z"
     },
     {
       "id": "0edef2b2-8410-4be0-9527-307d62d7447d",
