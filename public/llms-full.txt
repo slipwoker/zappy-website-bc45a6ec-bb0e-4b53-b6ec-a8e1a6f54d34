@@ -95,6 +95,9 @@ Description: A skateboard shop catering to skateboarding enthusiasts. The busine
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -667,6 +670,9 @@ Description: ניסיון | ZY SKATE CLUB. חנות סקייטבורד
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -1213,6 +1219,9 @@ Description: אודות | ZY SKATE CLUB. חנות סקייטבורד
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -1645,6 +1654,9 @@ Description: צור קשר | ZY SKATE CLUB. חנות סקייטבורד
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -2118,6 +2130,9 @@ Description: המוצרים שלנו - ZY SKATE CLUB
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -2381,6 +2396,9 @@ Description: עגלת הקניות שלך
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -2613,6 +2631,9 @@ Description: תשלום
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -3045,6 +3066,9 @@ Description: התחברות לקוחות
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -3284,6 +3308,9 @@ Description: החשבון שלי
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -3692,6 +3719,9 @@ Description: תודה על ההזמנה
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -3955,6 +3985,9 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -3987,7 +4020,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 # מדיניות החזרת מוצרים
 
 
-עדכון אחרון: 2.6.2026
+עדכון אחרון: 13.6.2026
 
 
 
@@ -4247,6 +4280,9 @@ Description: פרטי המוצר - ZY SKATE CLUB
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -4481,6 +4517,9 @@ Description: מוצרים - ZY SKATE CLUB
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -4726,6 +4765,9 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -5035,6 +5077,9 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 
 - מוצרים מוצרים
+
+
+
 
 
 
@@ -5360,6 +5405,9 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 
 
+
+
+
 - ניסיון
 - אודות
 - צור קשר
@@ -5627,399 +5675,399 @@ ZY SKATE CLUB מספקת ספורט וציוד פנאי דרך האתר. השי�
 
 ### גריפ - Santa Cruz
 URL: https://zy-skate-club.co.il/product/gryp-santa-cruz-t5inhu
-Price: 64.00 ILS (sale, was 80.00 ILS)
+Price: 68.00 ILS (sale, was 80.00 ILS)
 Availability: In stock
 
 ---
 
 ### VERB -  סקייטבורד מידה 8
 URL: https://zy-skate-club.co.il/product/verb-skyytbvrd-mydh-8-dflxcx
-Price: 479.99 ILS (sale, was 600.00 ILS)
+Price: 510.00 ILS (sale, was 600.00 ILS)
 Availability: In stock
 
 ---
 
 ### MOB - גריפ לקרש סקייטבורד
 URL: https://zy-skate-club.co.il/product/mob-gryp-lkrsh-skyytbvrd-5xuaze
-Price: 32.00 ILS (sale, was 40.00 ILS)
+Price: 34.00 ILS (sale, was 40.00 ILS)
 Availability: In stock
 
 ---
 
 ### KFD - קומפלט מידה 7.5
 URL: https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-75-36nrld
-Price: 480.00 ILS (sale, was 600.00 ILS)
+Price: 510.00 ILS (sale, was 600.00 ILS)
 Availability: In stock
 
 ---
 
 ### KFD - קומפלט מידה 8
 URL: https://zy-skate-club.co.il/product/kfd-kvmplt-mydh-8-eowl3s
-Price: 480.00 ILS (sale, was 600.00 ILS)
+Price: 510.00 ILS (sale, was 600.00 ILS)
 Availability: In stock
 
 ---
 
 ### קומפלט - Chocolate מידה 7.75
 URL: https://zy-skate-club.co.il/product/kvmplt-chocolate-mydh-775-kywpfq
-Price: 560.00 ILS (sale, was 700.00 ILS)
+Price: 595.00 ILS (sale, was 700.00 ILS)
 Availability: In stock
 
 ---
 
 ### קומפט סנטה קרוז מידה 7.75
 URL: https://zy-skate-club.co.il/product/kvmpt-snth-krvz-mydh-775-7wnly1
-Price: 560.00 ILS (sale, was 700.00 ILS)
+Price: 595.00 ILS (sale, was 700.00 ILS)
 Availability: In stock
 
 ---
 
 ### קומפלט KFD 
 URL: https://zy-skate-club.co.il/product/kvmplt-kfd-9e4aw4
-Price: 480.00 ILS (sale, was 600.00 ILS)
+Price: 510.00 ILS (sale, was 600.00 ILS)
 Availability: In stock
 
 ---
 
 ### חולצת - ZY SKATE CLUB
 URL: https://zy-skate-club.co.il/product/chvltst-zy-skate-club-da66i1
-Price: 52.80 ILS (sale, was 66.00 ILS)
+Price: 56.10 ILS (sale, was 66.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION - קרש מידה 8.125
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-riorl7
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION - קרש מידה 8.125
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-e4h3d6
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION - קרש מידה 8.125
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-8125-0vqjkm
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION - קרש מידה 8.5
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-85-frsyom
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-w8pilk
-Price: 239.98 ILS (sale, was 299.98 ILS)
+Price: 254.98 ILS (sale, was 299.98 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-nr1pvp
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-ux73bt
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-68si73
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-55yh6t
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION קרש מידה 8.0
 URL: https://zy-skate-club.co.il/product/zion-krsh-mydh-80-59evlm
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### Boulevard -  8.0 קרש לסקייטבורד 
 URL: https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-jcggl9
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### Boulevard -  8.0 קרש לסקייטבורד 
 URL: https://zy-skate-club.co.il/product/boulevard-80-krsh-lskyytbvrd-xfs1de
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### ZION - קרש סקייטבורד 8.25
 URL: https://zy-skate-club.co.il/product/zion-krsh-skyytbvrd-825-bri0s1
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### Stereo - 8.25 קרש מקצועי לסקייטבורד
 URL: https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-1o9hge
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### Stereo - 8.25 קרש מקצועי לסקייטבורד
 URL: https://zy-skate-club.co.il/product/stereo-825-krsh-mktsvay-lskyytbvrd-e55inn
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### Boulevard -  8.25 קרש לסקייטבורד 
 URL: https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-8bea4w
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### Santa Cruz - קרש לסקייטבורד במידה 8.25
 URL: https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-ness6a
-Price: 272.00 ILS (sale, was 340.00 ILS)
+Price: 289.00 ILS (sale, was 340.00 ILS)
 Availability: In stock
 
 ---
 
 ### Santa Cruz - קרש לסקייטבורד במידה 8.25
 URL: https://zy-skate-club.co.il/product/santa-cruz-krsh-lskyytbvrd-bmydh-825-wbrlmu
-Price: 272.00 ILS (sale, was 340.00 ILS)
+Price: 289.00 ILS (sale, was 340.00 ILS)
 Availability: In stock
 
 ---
 
 ### קרש Jart מידה  8.25
 URL: https://zy-skate-club.co.il/product/krsh-jart-mydh-825-714pk9
-Price: 272.00 ILS (sale, was 340.00 ILS)
+Price: 289.00 ILS (sale, was 340.00 ILS)
 Availability: In stock
 
 ---
 
 ### Creature - קרש לסקייטבורד במידה 8.25
 URL: https://zy-skate-club.co.il/product/creature-krsh-lskyytbvrd-bmydh-825-j1dck1
-Price: 272.00 ILS (sale, was 340.00 ILS)
+Price: 289.00 ILS (sale, was 340.00 ILS)
 Availability: In stock
 
 ---
 
 ### Boulevard -  8.25 קרש לסקייטבורד 
 URL: https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-3tkjli
-Price: 224.00 ILS (sale, was 280.00 ILS)
+Price: 238.00 ILS (sale, was 280.00 ILS)
 Availability: In stock
 
 ---
 
 ### BONES - גלגלים 100A 53mm
 URL: https://zy-skate-club.co.il/product/bones-glglym-100a-53mm-800avi
-Price: 264.00 ILS (sale, was 330.00 ILS)
+Price: 280.50 ILS (sale, was 330.00 ILS)
 Availability: In stock
 
 ---
 
 ### Bones - גלגלים לסקייטבורד STF V2 99A
 URL: https://zy-skate-club.co.il/product/bones-glglym-lskyytbvrd-stf-v2-99a-oynnk3
-Price: 264.00 ILS (sale, was 330.00 ILS)
+Price: 280.50 ILS (sale, was 330.00 ILS)
 Availability: In stock
 
 ---
 
 ### Krux - צירים לסקייטבורד במידה 144
 URL: https://zy-skate-club.co.il/product/krux-tsyrym-lskyytbvrd-bmydh-144-sd713r
-Price: 232.00 ILS (sale, was 290.00 ILS)
+Price: 246.50 ILS (sale, was 290.00 ILS)
 Availability: In stock
 
 ---
 
 ### Bronson - לאגרים לסקייטבורד
 URL: https://zy-skate-club.co.il/product/bronson-lagrym-lskyytbvrd-jgfkw3
-Price: 135.20 ILS (sale, was 169.00 ILS)
+Price: 143.65 ILS (sale, was 169.00 ILS)
 Availability: In stock
 
 ---
 
 ### Bones - לאגרים לסקייטבורד Reds
 URL: https://zy-skate-club.co.il/product/bones-lagrym-lskyytbvrd-reds-dahkb7
-Price: 135.20 ILS (sale, was 169.00 ILS)
+Price: 143.65 ILS (sale, was 169.00 ILS)
 Availability: In stock
 
 ---
 
 ### Shake Junt - לאגרים לסקייטבורד  
 URL: https://zy-skate-club.co.il/product/shake-junt-lagrym-lskyytbvrd-fe3xx9
-Price: 135.20 ILS (sale, was 169.00 ILS)
+Price: 143.65 ILS (sale, was 169.00 ILS)
 Availability: In stock
 
 ---
 
 ### TOOL צהוב 
 URL: https://zy-skate-club.co.il/product/tool-tshvb-ngzeja
-Price: 36.00 ILS (sale, was 45.00 ILS)
+Price: 38.25 ILS (sale, was 45.00 ILS)
 Availability: In stock
 
 ---
 
 ### ברגים BRIZA
 URL: https://zy-skate-club.co.il/product/brgym-briza-cczczw
-Price: 31.20 ILS (sale, was 39.00 ILS)
+Price: 33.15 ILS (sale, was 39.00 ILS)
 Availability: In stock
 
 ---
 
 ### ברגים BOLTS 
 URL: https://zy-skate-club.co.il/product/brgym-bolts-wanw22
-Price: 40.00 ILS (sale, was 50.00 ILS)
+Price: 42.50 ILS (sale, was 50.00 ILS)
 Availability: In stock
 
 ---
 
 ### מגנים מידה S
 URL: https://zy-skate-club.co.il/product/mgnym-mydh-s-13ea8b
-Price: 95.98 ILS (sale, was 119.97 ILS)
+Price: 101.97 ILS (sale, was 119.97 ILS)
 Availability: In stock
 
 ---
 
 ### BRIZA OFFER OR 53 MM PRO
 URL: https://zy-skate-club.co.il/product/briza-offer-or-53-mm-pro-04djyk
-Price: 183.20 ILS (sale, was 229.00 ILS)
+Price: 194.65 ILS (sale, was 229.00 ILS)
 Availability: In stock
 
 ---
 
 ### BRIZA SNAKECAT 55 MM 104A
 URL: https://zy-skate-club.co.il/product/briza-snakecat-55-mm-104a-3ufdm5
-Price: 183.20 ILS (sale, was 229.00 ILS)
+Price: 194.65 ILS (sale, was 229.00 ILS)
 Availability: In stock
 
 ---
 
 ### Briza playground new
 URL: https://zy-skate-club.co.il/product/briza-playground-new-nr7gzj
-Price: 191.20 ILS (sale, was 239.00 ILS)
+Price: 203.15 ILS (sale, was 239.00 ILS)
 Availability: In stock
 
 ---
 
 ### BRIZA X HYPNOTIZE 52 MM
 URL: https://zy-skate-club.co.il/product/briza-x-hypnotize-52-mm-nr4mac
-Price: 183.20 ILS (sale, was 229.00 ILS)
+Price: 194.65 ILS (sale, was 229.00 ILS)
 Availability: In stock
 
 ---
 
 ### מיסבי בריזה פרו
 URL: https://zy-skate-club.co.il/product/mysby-bryzh-prv-drwebp
-Price: 111.20 ILS (sale, was 139.00 ILS)
+Price: 118.15 ILS (sale, was 139.00 ILS)
 Availability: In stock
 
 ---
 
 ### מיסבים מדגם SANTO PRO
 URL: https://zy-skate-club.co.il/product/mysbym-mdgm-santo-pro-fexxj3
-Price: 111.20 ILS (sale, was 139.00 ILS)
+Price: 118.15 ILS (sale, was 139.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים Krux במידה 144
 URL: https://zy-skate-club.co.il/product/tsyrym-krux-bmydh-144-c8bqrk
-Price: 232.00 ILS (sale, was 290.00 ILS)
+Price: 246.50 ILS (sale, was 290.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים - Silver Hollow מידה 144
 URL: https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-144-6rns93
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים - Silver Hollow מידה 139
 URL: https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-jpiuuu
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים - Silver Hollow מידה 139
 URL: https://zy-skate-club.co.il/product/tsyrym-silver-hollow-mydh-139-p0kzk6
-Price: 240.00 ILS (sale, was 300.00 ILS)
+Price: 255.00 ILS (sale, was 300.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים Independent מידה 139
 URL: https://zy-skate-club.co.il/product/tsyrym-independent-mydh-139-n2pprf
-Price: 256.00 ILS (sale, was 320.00 ILS)
+Price: 272.00 ILS (sale, was 320.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים Independent מידה 144
 URL: https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-u6a3hx
-Price: 256.00 ILS (sale, was 320.00 ILS)
+Price: 272.00 ILS (sale, was 320.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים Independent מידה 144
 URL: https://zy-skate-club.co.il/product/tsyrym-independent-mydh-144-6extlx
-Price: 256.00 ILS (sale, was 320.00 ILS)
+Price: 272.00 ILS (sale, was 320.00 ILS)
 Availability: In stock
 
 ---
 
 ### קסדה מידה L
 URL: https://zy-skate-club.co.il/product/ksdh-mydh-l-61x8ln
-Price: 120.00 ILS (sale, was 150.00 ILS)
+Price: 127.50 ILS (sale, was 150.00 ILS)
 Availability: In stock
 
 ---
 
 ### Boulevard -  8.25 קרש לסקייטבורד 
 URL: https://zy-skate-club.co.il/product/boulevard-825-krsh-lskyytbvrd-40j7ov
-Price: 232.00 ILS (sale, was 290.00 ILS)
+Price: 246.50 ILS (sale, was 290.00 ILS)
 Availability: In stock
 
 ---
 
 ### צירים Independent Hollow מידה 144
 URL: https://zy-skate-club.co.il/product/tsyrym-independent-hollow-mydh-144-2uakry
-Price: 288.00 ILS (sale, was 360.00 ILS)
+Price: 306.00 ILS (sale, was 360.00 ILS)
 Availability: In stock
 
 ---
 
 ### קרש מחברת סנטה קרוז 8.25
 URL: https://zy-skate-club.co.il/product/krsh-mchbrt-snth-krvz-825-f5e6dw
-Price: 272.00 ILS (sale, was 340.00 ILS)
+Price: 289.00 ILS (sale, was 340.00 ILS)
 Availability: In stock
 
 ---

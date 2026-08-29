@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-02T18:13:06.134Z",
+  "generated_at": "2026-08-29T22:01:48.697Z",
   "base_url": "https://zy-skate-club.co.il",
   "currency": "ILS",
   "count": 57,
@@ -14,9 +14,9 @@
       "short_description": "גריפ - Santa Cruz",
       "sku": null,
       "brand": null,
-      "price": 64,
+      "price": 68,
       "base_price": 80,
-      "sale_price": 64,
+      "sale_price": 68,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776964646317-reyan.webp"
@@ -28,7 +28,7 @@
         "קרשים",
         "אביזרים"
       ],
-      "updated_at": "2026-04-26T13:13:33.334Z"
+      "updated_at": "2026-08-29T22:00:55.064Z"
     },
     {
       "id": "c3f13941-283c-4b4d-905e-ef47c8947d14",
@@ -39,9 +39,9 @@
       "short_description": "VERB -  סקייטבורד מידה 8",
       "sku": null,
       "brand": null,
-      "price": 479.99,
+      "price": 510,
       "base_price": 600,
-      "sale_price": 479.99,
+      "sale_price": 510,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776964450548-dwhgmk.webp"
@@ -52,7 +52,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:28:57.133Z"
+      "updated_at": "2026-08-29T22:00:55.284Z"
     },
     {
       "id": "3e6cef84-8e85-48f0-babf-7e5eaf1ef801",
@@ -63,9 +63,9 @@
       "short_description": "MOB - גריפ לקרש סקייטבורד",
       "sku": null,
       "brand": null,
-      "price": 32,
+      "price": 34,
       "base_price": 40,
-      "sale_price": 32,
+      "sale_price": 34,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776964309159-8u7gih.webp"
@@ -77,7 +77,7 @@
         "אביזרים",
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.391Z"
+      "updated_at": "2026-08-29T22:00:55.504Z"
     },
     {
       "id": "092fa1e3-20a9-463a-92ae-670cfb7eeeb0",
@@ -88,9 +88,9 @@
       "short_description": "KFD - קומפלט מידה 7.5",
       "sku": null,
       "brand": null,
-      "price": 480,
+      "price": 510,
       "base_price": 600,
-      "sale_price": 480,
+      "sale_price": 510,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963704918-cj4f.webp"
@@ -101,7 +101,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:28:32.894Z"
+      "updated_at": "2026-08-29T22:00:55.752Z"
     },
     {
       "id": "ff377c0e-361f-41dd-aca6-fe45200e63aa",
@@ -112,9 +112,9 @@
       "short_description": "KFD - קומפלט מידה 8",
       "sku": null,
       "brand": null,
-      "price": 480,
+      "price": 510,
       "base_price": 600,
-      "sale_price": 480,
+      "sale_price": 510,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963588358-mt1jzm.webp"
@@ -125,7 +125,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:28:16.749Z"
+      "updated_at": "2026-08-29T22:00:55.977Z"
     },
     {
       "id": "cf32558e-2321-44fc-9724-0ffccafe0af1",
@@ -136,9 +136,9 @@
       "short_description": "קומפלט - Chocolate מידה 7.75",
       "sku": null,
       "brand": null,
-      "price": 560,
+      "price": 595,
       "base_price": 700,
-      "sale_price": 560,
+      "sale_price": 595,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963424851-6xba8.webp"
@@ -149,7 +149,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:30:09.972Z"
+      "updated_at": "2026-08-29T22:00:56.195Z"
     },
     {
       "id": "359c640b-0de0-4764-8516-59930fb67912",
@@ -160,9 +160,9 @@
       "short_description": "קומפט סנטה קרוז מידה 7.75",
       "sku": null,
       "brand": null,
-      "price": 560,
+      "price": 595,
       "base_price": 700,
-      "sale_price": 560,
+      "sale_price": 595,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963365666-8kmrzi.webp"
@@ -173,7 +173,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:29:43.296Z"
+      "updated_at": "2026-08-29T22:00:56.416Z"
     },
     {
       "id": "93abbd0c-15d7-4603-904c-584749ac5bc5",
@@ -184,9 +184,9 @@
       "short_description": "מתאים לגילאים 5 - 8",
       "sku": null,
       "brand": null,
-      "price": 480,
+      "price": 510,
       "base_price": 600,
-      "sale_price": 480,
+      "sale_price": 510,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963213449-nnv1hs.webp"
@@ -197,7 +197,7 @@
       "categories": [
         "קמפלטים"
       ],
-      "updated_at": "2026-05-05T20:29:21.373Z"
+      "updated_at": "2026-08-29T22:00:56.645Z"
     },
     {
       "id": "0edef2b2-8410-4be0-9527-307d62d7447d",
@@ -208,9 +208,9 @@
       "short_description": "ליצור קשר לתיאום מידה",
       "sku": null,
       "brand": null,
-      "price": 52.8,
+      "price": 56.1,
       "base_price": 66,
-      "sale_price": 52.8,
+      "sale_price": 56.1,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776963073577-mznm9.webp"
@@ -221,7 +221,7 @@
       "categories": [
         "אביזרים"
       ],
-      "updated_at": "2026-04-26T13:13:33.563Z"
+      "updated_at": "2026-08-29T22:00:56.873Z"
     },
     {
       "id": "36d337fb-0ff9-43d1-991b-9596dc0e9070",
@@ -232,9 +232,9 @@
       "short_description": "ZION - קרש מידה 8.125 \n{זמין במלאי באפור ואדום}",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776961965131-tp9zvn.webp"
@@ -245,7 +245,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-27T08:44:19.085Z"
+      "updated_at": "2026-08-29T22:00:57.093Z"
     },
     {
       "id": "524316ba-fc4b-4aeb-8c1e-a65aa2082f4a",
@@ -256,9 +256,9 @@
       "short_description": "ZION - קרש מידה 8.125",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776961920235-spck3n.webp"
@@ -269,7 +269,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.618Z"
+      "updated_at": "2026-08-29T22:00:57.312Z"
     },
     {
       "id": "babc14ce-ba3b-4cb3-8cfe-8c1b5a10a1e8",
@@ -280,9 +280,9 @@
       "short_description": "ZION - קרש מידה 8.125",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776961860459-u8qc3q.webp"
@@ -293,7 +293,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.646Z"
+      "updated_at": "2026-08-29T22:00:57.531Z"
     },
     {
       "id": "6af63d7c-8f60-4e80-9a81-6a14f3ca6078",
@@ -304,9 +304,9 @@
       "short_description": "ZION - קרש מידה 8.5 \n{הקרש במידה 8.5 קיים בעוד גרפיקות ניתן ליצור קשר}",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776961679846-1livkq.webp"
@@ -317,7 +317,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.676Z"
+      "updated_at": "2026-08-29T22:00:57.750Z"
     },
     {
       "id": "89a3eb3b-1442-4b11-a2e4-e9bf0b922d5e",
@@ -328,9 +328,9 @@
       "short_description": "ZION קרש מידה 8.0",
       "sku": null,
       "brand": null,
-      "price": 239.98,
+      "price": 254.98,
       "base_price": 299.98,
-      "sale_price": 239.98,
+      "sale_price": 254.98,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876902815-9a7e4m.webp"
@@ -341,7 +341,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.706Z"
+      "updated_at": "2026-08-29T22:00:57.969Z"
     },
     {
       "id": "a871b2a7-741f-4261-a6f3-4adf9033d2cb",
@@ -352,9 +352,9 @@
       "short_description": "ZION קרש מידה 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876869125-3w87dn.webp"
@@ -365,7 +365,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.736Z"
+      "updated_at": "2026-08-29T22:00:58.189Z"
     },
     {
       "id": "2ed01d47-aab5-499a-9bb5-9fd37f21ba97",
@@ -376,9 +376,9 @@
       "short_description": "ZION קרש מידה 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876844187-j48xs3.webp"
@@ -389,7 +389,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.765Z"
+      "updated_at": "2026-08-29T22:00:58.407Z"
     },
     {
       "id": "ef854d28-0c1c-4f0f-b2d2-9a917830f132",
@@ -400,9 +400,9 @@
       "short_description": "ZION קרש מידה 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876818163-20yf4.webp"
@@ -413,7 +413,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.793Z"
+      "updated_at": "2026-08-29T22:00:58.625Z"
     },
     {
       "id": "120e0c40-df5d-4220-b0f5-adbe7a5cb8e5",
@@ -424,9 +424,9 @@
       "short_description": "ZION קרש מידה 8.0 \n(צבע אפור חסר במלאי יש בצבע סגול ואדום)",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876733080-k851oh.webp"
@@ -437,7 +437,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.821Z"
+      "updated_at": "2026-08-29T22:00:58.864Z"
     },
     {
       "id": "136c7d32-12b7-48b7-9e64-07c05319588b",
@@ -448,9 +448,9 @@
       "short_description": "ZION קרש מידה 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876596919-ra4b08.webp"
@@ -461,7 +461,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.849Z"
+      "updated_at": "2026-08-29T22:00:59.086Z"
     },
     {
       "id": "7b7891f1-c263-41ad-af3a-fab423680982",
@@ -472,9 +472,9 @@
       "short_description": "Boulevard -  8.0 קרש לסקייטבורד ",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876535538-acpdpg.webp"
@@ -485,7 +485,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.877Z"
+      "updated_at": "2026-08-29T22:00:59.304Z"
     },
     {
       "id": "1924eaa6-56c9-49c2-bc8a-7594f101f4df",
@@ -496,9 +496,9 @@
       "short_description": "Boulevard -  8.0 קרש לסקייטבורד ",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776876481873-42rxas.webp"
@@ -509,7 +509,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.906Z"
+      "updated_at": "2026-08-29T22:00:59.521Z"
     },
     {
       "id": "a098ec52-5f71-4a5e-afa4-953bdad37277",
@@ -520,9 +520,9 @@
       "short_description": "ZION - קרש סקייטבורד 8.25",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776873439397-ysckp.webp"
@@ -533,7 +533,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.934Z"
+      "updated_at": "2026-08-29T22:00:59.740Z"
     },
     {
       "id": "3f2e1a71-079d-435b-93b3-e5995879a336",
@@ -544,9 +544,9 @@
       "short_description": "Stereo - 8.25 קרש מקצועי לסקייטבורד",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776873319007-34ytd.webp"
@@ -557,7 +557,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.962Z"
+      "updated_at": "2026-08-29T22:00:59.965Z"
     },
     {
       "id": "bb0d2fab-edd1-4fac-8acb-8809b7a72430",
@@ -568,9 +568,9 @@
       "short_description": "Stereo - 8.25 קרש מקצועי לסקייטבורד",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776873236999-m1fx1m.webp"
@@ -581,7 +581,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:33.990Z"
+      "updated_at": "2026-08-29T22:01:00.183Z"
     },
     {
       "id": "36b90a56-dbb4-4b6a-a8ed-9c1049266f04",
@@ -592,9 +592,9 @@
       "short_description": "Boulevard -  8.25 קרש לסקייטבורד ",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776873205622-glmi4.webp"
@@ -605,7 +605,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.019Z"
+      "updated_at": "2026-08-29T22:01:00.406Z"
     },
     {
       "id": "f81c9b2a-5640-47eb-9bb9-f3f5c826b468",
@@ -616,9 +616,9 @@
       "short_description": "Santa Cruz - קרש לסקייטבורד במידה 8.25",
       "sku": null,
       "brand": null,
-      "price": 272,
+      "price": 289,
       "base_price": 340,
-      "sale_price": 272,
+      "sale_price": 289,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776872941137-7lqs4i.webp"
@@ -629,7 +629,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.047Z"
+      "updated_at": "2026-08-29T22:01:00.624Z"
     },
     {
       "id": "b71b25d1-3a7b-41f7-a046-9fdd0ee6937d",
@@ -640,9 +640,9 @@
       "short_description": "Santa Cruz - קרש לסקייטבורד במידה 8.25",
       "sku": null,
       "brand": null,
-      "price": 272,
+      "price": 289,
       "base_price": 340,
-      "sale_price": 272,
+      "sale_price": 289,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776872908231-3rq50r.webp"
@@ -653,7 +653,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.076Z"
+      "updated_at": "2026-08-29T22:01:00.871Z"
     },
     {
       "id": "cdb88a72-2cb5-4820-89df-1dc79a670c3f",
@@ -664,9 +664,9 @@
       "short_description": "קרש Jart מידה  8.25",
       "sku": null,
       "brand": null,
-      "price": 272,
+      "price": 289,
       "base_price": 340,
-      "sale_price": 272,
+      "sale_price": 289,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776872286256-psh5p.webp"
@@ -677,7 +677,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.104Z"
+      "updated_at": "2026-08-29T22:01:01.090Z"
     },
     {
       "id": "9327a785-9180-48db-ba49-3f480a1953a6",
@@ -688,9 +688,9 @@
       "short_description": "Creature - קרש לסקייטבורד במידה 8.25",
       "sku": null,
       "brand": null,
-      "price": 272,
+      "price": 289,
       "base_price": 340,
-      "sale_price": 272,
+      "sale_price": 289,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776872181360-xg80k7.webp"
@@ -701,7 +701,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.131Z"
+      "updated_at": "2026-08-29T22:01:01.309Z"
     },
     {
       "id": "fa231285-f668-42d7-aaf9-79c7b68df2ac",
@@ -712,9 +712,9 @@
       "short_description": "Boulevard -  8.25 קרש לסקייטבורד ",
       "sku": null,
       "brand": null,
-      "price": 224,
+      "price": 238,
       "base_price": 280,
-      "sale_price": 224,
+      "sale_price": 238,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640893313-ff89hd.webp"
@@ -725,7 +725,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.159Z"
+      "updated_at": "2026-08-29T22:01:01.531Z"
     },
     {
       "id": "c7e2452b-b06e-4cd2-8ca8-90b5ab272836",
@@ -736,9 +736,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 264,
+      "price": 280.5,
       "base_price": 330,
-      "sale_price": 264,
+      "sale_price": 280.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640690338-wnb0l8.webp"
@@ -749,7 +749,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.187Z"
+      "updated_at": "2026-08-29T22:01:01.751Z"
     },
     {
       "id": "0c2ff328-8068-4f29-8033-d1a5b6dd2387",
@@ -760,9 +760,9 @@
       "short_description": "גלגלים מקצועיים לסקייטבורד של חברת Bones.\n\nמידת קשיחות: 99A",
       "sku": null,
       "brand": null,
-      "price": 264,
+      "price": 280.5,
       "base_price": 330,
-      "sale_price": 264,
+      "sale_price": 280.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640617989-zt85zs.webp"
@@ -773,7 +773,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.215Z"
+      "updated_at": "2026-08-29T22:01:01.972Z"
     },
     {
       "id": "788fcc31-1b41-47d1-927f-a1c9f40a18d2",
@@ -784,9 +784,9 @@
       "short_description": "144 - מתאים לקרשים במידות 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 232,
+      "price": 246.5,
       "base_price": 290,
-      "sale_price": 232,
+      "sale_price": 246.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640531261-p0nude.webp"
@@ -797,7 +797,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.242Z"
+      "updated_at": "2026-08-29T22:01:02.190Z"
     },
     {
       "id": "4a7ac688-e1b8-4e63-8829-221ced2195d7",
@@ -808,9 +808,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 135.2,
+      "price": 143.65,
       "base_price": 169,
-      "sale_price": 135.2,
+      "sale_price": 143.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640477760-c6dews.webp",
@@ -822,7 +822,7 @@
       "categories": [
         "לאגרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.270Z"
+      "updated_at": "2026-08-29T22:01:02.408Z"
     },
     {
       "id": "94cbe0ce-8062-4e2d-94bd-06d53103c0c7",
@@ -833,9 +833,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 135.2,
+      "price": 143.65,
       "base_price": 169,
-      "sale_price": 135.2,
+      "sale_price": 143.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640432022-bpuofc.webp"
@@ -846,7 +846,7 @@
       "categories": [
         "לאגרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.297Z"
+      "updated_at": "2026-08-29T22:01:02.647Z"
     },
     {
       "id": "6bba35dc-3932-450b-84d9-2014076f5e65",
@@ -857,9 +857,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 135.2,
+      "price": 143.65,
       "base_price": 169,
-      "sale_price": 135.2,
+      "sale_price": 143.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640334858-q3yv88.webp"
@@ -870,7 +870,7 @@
       "categories": [
         "לאגרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.325Z"
+      "updated_at": "2026-08-29T22:01:02.865Z"
     },
     {
       "id": "acd44081-fa31-4c41-9635-8697f6727472",
@@ -881,9 +881,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 36,
+      "price": 38.25,
       "base_price": 45,
-      "sale_price": 36,
+      "sale_price": 38.25,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640263859-84f3.webp"
@@ -894,7 +894,7 @@
       "categories": [
         "אביזרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.353Z"
+      "updated_at": "2026-08-29T22:01:03.082Z"
     },
     {
       "id": "372e328e-a0fb-45a2-a722-ee7795896d0e",
@@ -905,9 +905,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 31.2,
+      "price": 33.15,
       "base_price": 39,
-      "sale_price": 31.2,
+      "sale_price": 33.15,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640181904-3jm0kl.webp"
@@ -918,7 +918,7 @@
       "categories": [
         "ברגים"
       ],
-      "updated_at": "2026-04-26T13:13:34.381Z"
+      "updated_at": "2026-08-29T22:01:03.300Z"
     },
     {
       "id": "b600c4f7-a8cb-4a86-9906-a6df52f48f36",
@@ -929,9 +929,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 40,
+      "price": 42.5,
       "base_price": 50,
-      "sale_price": 40,
+      "sale_price": 42.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776640102686-ifx1ho.webp"
@@ -942,7 +942,7 @@
       "categories": [
         "ברגים"
       ],
-      "updated_at": "2026-04-26T13:13:34.409Z"
+      "updated_at": "2026-08-29T22:01:03.523Z"
     },
     {
       "id": "61195e47-86ba-4e19-876e-cae9f9686cbf",
@@ -953,9 +953,9 @@
       "short_description": "מגנים מידה S מתאים לגילאים 7 - 10",
       "sku": null,
       "brand": null,
-      "price": 95.98,
+      "price": 101.97,
       "base_price": 119.97,
-      "sale_price": 95.98,
+      "sale_price": 101.97,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639907049-71wv5l.webp"
@@ -966,7 +966,7 @@
       "categories": [
         "מיגון"
       ],
-      "updated_at": "2026-04-26T13:13:34.437Z"
+      "updated_at": "2026-08-29T22:01:03.756Z"
     },
     {
       "id": "5b4133e6-cc0f-463e-8168-fa85e24e6b3a",
@@ -980,9 +980,9 @@
       "short_description": "גלגלים 53 מ\"מ עם דורומטר 104A\nמהדורה מוגבלת של briza ofer \n\n",
       "sku": null,
       "brand": null,
-      "price": 183.2,
+      "price": 194.65,
       "base_price": 229,
-      "sale_price": 183.2,
+      "sale_price": 194.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639769289-ob97c8.webp"
@@ -993,7 +993,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.466Z"
+      "updated_at": "2026-08-29T22:01:03.975Z"
     },
     {
       "id": "59c278f0-4c4c-486e-8573-3aa5c9c5e8cf",
@@ -1007,9 +1007,9 @@
       "short_description": "גלגלים בקוטר 55 מ\"מ עם דורומטר 104A - מיועדים לסקייטרים ברחוב שרוצים שליטה, מהירות ותחושה מאוזנת.\n",
       "sku": null,
       "brand": null,
-      "price": 183.2,
+      "price": 194.65,
       "base_price": 229,
-      "sale_price": 183.2,
+      "sale_price": 194.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639658099-32tfyc.webp"
@@ -1020,7 +1020,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.493Z"
+      "updated_at": "2026-08-29T22:01:04.194Z"
     },
     {
       "id": "15f7bf88-67c5-4da5-b34f-9ff88a8ff9d6",
@@ -1034,9 +1034,9 @@
       "short_description": "מידה 52 מ״מ 104a ",
       "sku": null,
       "brand": null,
-      "price": 191.2,
+      "price": 203.15,
       "base_price": 239,
-      "sale_price": 191.2,
+      "sale_price": 203.15,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639539637-qgg9am.webp"
@@ -1047,7 +1047,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.522Z"
+      "updated_at": "2026-08-29T22:01:04.412Z"
     },
     {
       "id": "18452ee8-3764-440e-b524-4c586e3ee181",
@@ -1061,9 +1061,9 @@
       "short_description": "גלגלים בקוטר 52 מ\"מ עם דורומטר 104A\n",
       "sku": null,
       "brand": null,
-      "price": 183.2,
+      "price": 194.65,
       "base_price": 229,
-      "sale_price": 183.2,
+      "sale_price": 194.65,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639357282-qr3ak.webp"
@@ -1074,7 +1074,7 @@
       "categories": [
         "גלגלים"
       ],
-      "updated_at": "2026-04-26T13:13:34.550Z"
+      "updated_at": "2026-08-29T22:01:04.635Z"
     },
     {
       "id": "8c1f2fe9-1dba-4326-b773-14d74362738f",
@@ -1085,9 +1085,9 @@
       "short_description": "מיסבים מדגם מקצועי בעל ביצועים גבוהים",
       "sku": null,
       "brand": null,
-      "price": 111.2,
+      "price": 118.15,
       "base_price": 139,
-      "sale_price": 111.2,
+      "sale_price": 118.15,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639189099-rx414s.webp",
@@ -1099,7 +1099,7 @@
       "categories": [
         "לאגרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.578Z"
+      "updated_at": "2026-08-29T22:01:04.853Z"
     },
     {
       "id": "6b747c6f-006f-4dac-bf2b-397f6d7c6368",
@@ -1110,9 +1110,9 @@
       "short_description": "מיסבים מדגם מקצועי בעל ביצועים גבוהים הנושאים את השם סנטו -  מהדורה ייחודית מומלצת\n\nמעוצב עם Ultra Glide המתקדם והעמיד בפני אבק של Briza \n\n לביצועים חלקים, מהירים ועמידים במיוחד",
       "sku": null,
       "brand": null,
-      "price": 111.2,
+      "price": 118.15,
       "base_price": 139,
-      "sale_price": 111.2,
+      "sale_price": 118.15,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639012487-9uw3tq.webp",
@@ -1124,7 +1124,7 @@
       "categories": [
         "לאגרים"
       ],
-      "updated_at": "2026-04-26T13:13:34.606Z"
+      "updated_at": "2026-08-29T22:01:05.071Z"
     },
     {
       "id": "64c9d447-b503-47db-9eef-b033cfca2e65",
@@ -1135,9 +1135,9 @@
       "short_description": "144 - מתאים לקרשים במידות 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 232,
+      "price": 246.5,
       "base_price": 290,
-      "sale_price": 232,
+      "sale_price": 246.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776638427551-zh4g55.webp"
@@ -1148,7 +1148,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.634Z"
+      "updated_at": "2026-08-29T22:01:05.289Z"
     },
     {
       "id": "a1b8c4ab-ced3-4a9e-baf2-4b1f3bfe0a98",
@@ -1159,9 +1159,9 @@
       "short_description": "144 - מתאים לקרשים במידה 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776638176354-yakvve.webp"
@@ -1172,7 +1172,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.661Z"
+      "updated_at": "2026-08-29T22:01:05.509Z"
     },
     {
       "id": "05d2c508-34bb-47b0-b5aa-013501b9f79b",
@@ -1183,9 +1183,9 @@
       "short_description": "מידה 139 - מתאים לקרשים במידות 7.75 - 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776637939639-kebnl7.webp"
@@ -1196,7 +1196,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.689Z"
+      "updated_at": "2026-08-29T22:01:05.726Z"
     },
     {
       "id": "c33dbd29-8793-4a43-b39c-b842e33c09e9",
@@ -1207,9 +1207,9 @@
       "short_description": "מידה 139 - מתאים לקרשים במידה 7.75 - 8.0",
       "sku": null,
       "brand": null,
-      "price": 240,
+      "price": 255,
       "base_price": 300,
-      "sale_price": 240,
+      "sale_price": 255,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776637754891-yji9mym.webp"
@@ -1220,7 +1220,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.716Z"
+      "updated_at": "2026-08-29T22:01:05.974Z"
     },
     {
       "id": "417b257d-7496-40a7-9119-879db62e9b36",
@@ -1231,9 +1231,9 @@
       "short_description": "139 - מתאים לקרשים במידות 7.75 - 8.0",
       "sku": null,
       "brand": null,
-      "price": 256,
+      "price": 272,
       "base_price": 320,
-      "sale_price": 256,
+      "sale_price": 272,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776637585684-txf30p.webp"
@@ -1244,7 +1244,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.745Z"
+      "updated_at": "2026-08-29T22:01:06.193Z"
     },
     {
       "id": "a2b91705-da2b-4e07-bd9d-f279c940afbc",
@@ -1255,9 +1255,9 @@
       "short_description": "144 - מתאים לקרשים במידה 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 256,
+      "price": 272,
       "base_price": 320,
-      "sale_price": 256,
+      "sale_price": 272,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776637419011-tk6xl.webp",
@@ -1269,7 +1269,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.773Z"
+      "updated_at": "2026-08-29T22:01:06.412Z"
     },
     {
       "id": "112abd3e-5298-483a-9e15-8041636ad39f",
@@ -1280,9 +1280,9 @@
       "short_description": "מידה 144 - מתאים לקרשים במידה 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 256,
+      "price": 272,
       "base_price": 320,
-      "sale_price": 256,
+      "sale_price": 272,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776637284279-fvbdv.webp",
@@ -1295,7 +1295,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.801Z"
+      "updated_at": "2026-08-29T22:01:06.630Z"
     },
     {
       "id": "f78829b0-4542-47ce-821c-570fdfc5c6cc",
@@ -1306,9 +1306,9 @@
       "short_description": "קסדה מידה L מתאימה למבוגרים בצבע לבן",
       "sku": null,
       "brand": null,
-      "price": 120,
+      "price": 127.5,
       "base_price": 150,
-      "sale_price": 120,
+      "sale_price": 127.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776626176024-4unrd.webp"
@@ -1319,7 +1319,7 @@
       "categories": [
         "מיגון"
       ],
-      "updated_at": "2026-04-26T13:13:34.829Z"
+      "updated_at": "2026-08-29T22:01:06.864Z"
     },
     {
       "id": "b71dad7d-186c-4ebd-ade2-840eb28be45b",
@@ -1330,9 +1330,9 @@
       "short_description": "Boulevard -  8.25 קרש לסקייטבורד ",
       "sku": null,
       "brand": null,
-      "price": 232,
+      "price": 246.5,
       "base_price": 290,
-      "sale_price": 232,
+      "sale_price": 246.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776625999684-0k9ssl.webp",
@@ -1344,7 +1344,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.857Z"
+      "updated_at": "2026-08-29T22:01:14.088Z"
     },
     {
       "id": "acd47ca0-9e4a-4736-a99e-674292e22999",
@@ -1355,9 +1355,9 @@
       "short_description": "צירים מקצועיים של Independent חלולים \n144 - מתאים לקרשים במידה 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 288,
+      "price": 306,
       "base_price": 360,
-      "sale_price": 288,
+      "sale_price": 306,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776601347409-pnc7sk.webp"
@@ -1368,7 +1368,7 @@
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-04-26T13:13:34.884Z"
+      "updated_at": "2026-08-29T22:01:07.297Z"
     },
     {
       "id": "90c2adfa-0ed5-4791-987f-b30dbca55fcc",
@@ -1379,9 +1379,9 @@
       "short_description": "קרש מקצועי סנטה קרוז מידה 8.25",
       "sku": null,
       "brand": null,
-      "price": 272,
+      "price": 289,
       "base_price": 340,
-      "sale_price": 272,
+      "sale_price": 289,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776600832039-wn9sz9.webp"
@@ -1392,7 +1392,7 @@
       "categories": [
         "קרשים"
       ],
-      "updated_at": "2026-04-26T13:13:34.913Z"
+      "updated_at": "2026-08-29T22:01:07.520Z"
     }
   ]
 }
