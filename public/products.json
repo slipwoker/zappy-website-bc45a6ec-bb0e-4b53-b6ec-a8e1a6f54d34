@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T20:33:11.484Z",
+  "generated_at": "2026-10-14T20:34:07.734Z",
   "base_url": "https://zy-skate-club.co.il",
   "currency": "ILS",
   "count": 57,
@@ -946,27 +946,27 @@
     },
     {
       "id": "61195e47-86ba-4e19-876e-cae9f9686cbf",
-      "slug": "mgnym-mydh-s-13ea8b",
+      "slug": "mgnym-mydh-s-1gpov4",
       "name": "מגנים מידה S",
       "name_translations": {},
       "description": "",
       "short_description": "מגנים מידה S מתאים לגילאים 7 - 10",
       "sku": null,
       "brand": null,
-      "price": 101.97,
-      "base_price": 119.97,
-      "sale_price": 101.97,
+      "price": 127.5,
+      "base_price": 150,
+      "sale_price": 127.5,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776639907049-71wv5l.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/mgnym-mydh-s-13ea8b",
+      "url": "https://zy-skate-club.co.il/product/mgnym-mydh-s-1gpov4",
       "categories": [
         "מיגון"
       ],
-      "updated_at": "2026-08-29T22:01:03.756Z"
+      "updated_at": "2026-10-14T20:33:33.882Z"
     },
     {
       "id": "5b4133e6-cc0f-463e-8168-fa85e24e6b3a",
