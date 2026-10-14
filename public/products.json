@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T20:32:16.674Z",
+  "generated_at": "2026-10-14T20:33:11.484Z",
   "base_url": "https://zy-skate-club.co.il",
   "currency": "ILS",
   "count": 57,
@@ -1348,27 +1348,27 @@
     },
     {
       "id": "acd47ca0-9e4a-4736-a99e-674292e22999",
-      "slug": "tsyrym-independent-hollow-mydh-144-bqpbd4",
+      "slug": "tsyrym-independent-hollow-mydh-144-s27fhp",
       "name": "צירים Independent Hollow מידה 144",
       "name_translations": {},
       "description": "",
       "short_description": "צירים מקצועיים של Independent חלולים \n144 - מתאים לקרשים במידה 8.0 - 8.5",
       "sku": null,
       "brand": null,
-      "price": 306,
+      "price": 331,
       "base_price": 390,
-      "sale_price": 306,
+      "sale_price": 331,
       "currency": "ILS",
       "images": [
         "https://zy-skate-club.co.il/assets/product-1776601347409-pnc7sk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://zy-skate-club.co.il/product/tsyrym-independent-hollow-mydh-144-bqpbd4",
+      "url": "https://zy-skate-club.co.il/product/tsyrym-independent-hollow-mydh-144-s27fhp",
       "categories": [
         "צירים"
       ],
-      "updated_at": "2026-10-14T20:31:37.186Z"
+      "updated_at": "2026-10-14T20:32:38.398Z"
     },
     {
       "id": "90c2adfa-0ed5-4791-987f-b30dbca55fcc",
